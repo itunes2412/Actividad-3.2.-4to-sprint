@@ -41,14 +41,14 @@
   <!-- Banner -->
   
   <div class="banner">
-    <img src="/casa4.png" alt="banner" style="width: 90%; height: 35%;" />
+    <img src="/banner.png" alt="banner" style="width: 90%; height: 35%;" />
   </div>
   
 
   <!-- Texto de Inicio -->
   <div class="inicio-text">
     <h1>Bienvenidos a HOUSE FINDER</h1>
-    <p>Somos tu mejor opción para encontrar la casa o departamento de tus sueños. En HOUSE FINDER, nos comprometemos a proporcionarte las mejores opciones de vivienda, ya sea que estés buscando tu primer hogar, una propiedad de inversión o el lugar perfecto para tu familia. Navega a través de nuestras propiedades, conoce nuestros proyectos y descubre oportunidades de promoción exclusivas. ¡Estamos aquí para ayudarte a encontrar el lugar que siempre has deseado!</p>
+    <p>Somos tu mejor opción para encontrar la casa o departamento de tus sueños. En <b>HOUSE FINDER</b>, nos comprometemos a proporcionarte las mejores opciones de vivienda, ya sea que estés buscando tu primer hogar, una propiedad de inversión o el lugar perfecto para tu familia. Navega a través de nuestras propiedades, conoce nuestros proyectos y descubre oportunidades de promoción exclusivas. ¡Estamos aquí para ayudarte a encontrar el lugar que siempre has deseado!</p>
   </div>
 
   <br>
