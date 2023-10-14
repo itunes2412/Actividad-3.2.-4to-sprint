@@ -11,13 +11,13 @@
           />
         </div>
         <ul class="menu">
-          <li><router-link to="/">Inicio</router-link></li>
-          <li><router-link to="/nosotros">Nosotros</router-link></li>
-          <li><router-link to="/propiedades">Propiedades</router-link></li>
-          <li><router-link to="/proyectos">Proyectos</router-link></li>
-          <li><router-link to="/promocion">Promoción</router-link></li>
+          <li><router-link to="/"></router-link></li>
+          <li><router-link to="/nosotros"></router-link></li>
+          <li><router-link to="/propiedades"></router-link></li>
+          <li><router-link to="/proyectos"></router-link></li>
+          <li><router-link to="/promocion"></router-link></li>
           <li><router-link to="/contacto"></router-link></li>
-          <li><router-link to="/blog">Blog</router-link></li>
+          <li><router-link to="/blog"></router-link></li>
         </ul>
   
         <div>
@@ -31,7 +31,7 @@
       <main class="content">
         <section class="inicio-section">
           <div class="banner">
-            <img src="..src/assets/logo.png" alt="banner" style="width: 200px; height: 200px;" />
+            <img src="..src/public/logo.png" alt="banner" style="width: 200px; height: 200px;" />
           </div>
   
           <div class="inicio-text">
@@ -42,17 +42,17 @@
   
           <div class="row">
             <div class="column">
-              <img src="../assets/logo.png" alt="Imagen 1" style="width: 200px; height: 200px;" />
+              <img src="../public/casa1.jpg" alt="Imagen 1" style="width: 200px; height: 200px;" />
               <!-- Contenido de la columna 1 -->
             </div>
   
             <div class="column">
-              <img src="../assets/logo.png" alt="Imagen 2" style="width: 200px; height: 200px;" />
+              <img src="../public/casa2.jpg" alt="Imagen 2" style="width: 200px; height: 200px;" />
               <!-- Contenido de la columna 2 -->
             </div>
   
             <div class="column">
-              <img src="../assets/logo.png" alt="Imagen 3" style="width: 200px; height: 200px;" />
+              <img src="../public/casa3.jpg" alt="Imagen 3" style="width: 200px; height: 200px;" />
               <!-- Contenido de la columna 3 -->
             </div>
           </div>
