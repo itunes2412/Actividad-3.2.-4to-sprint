@@ -11,13 +11,13 @@
         />
       </div>
       <ul class="menu">
-        <li><router-link to="/">Inicio</router-link></li>
-        <li><router-link to="/nosotros">Nosotros</router-link></li>
-        <li><router-link to="/propiedades">Propiedades</router-link></li>
-        <li><router-link to="/proyectos">Proyectos</router-link></li>
-        <li><router-link to="/promocion">Promoción</router-link></li>
+        <li><router-link to="/"></router-link></li>
+        <li><router-link to="/nosotros"></router-link></li>
+        <li><router-link to="/propiedades"></router-link></li>
+        <li><router-link to="/proyectos"></router-link></li>
+        <li><router-link to="/promocion"></router-link></li>
         <li><router-link to="/contacto"></router-link></li>
-        <li><router-link to="/blog">Blog</router-link></li>
+        <li><router-link to="/blog"></router-link></li>
       </ul>
 
       <div>
@@ -41,7 +41,7 @@
   <!-- Banner -->
   
   <div class="banner">
-    <img src="/logo.png" alt="banner" style="width: 200px; height: 200px;" />
+    <img src="/casa4.png" alt="banner" style="width: 90%; height: 35%;" />
   </div>
   
 
@@ -49,35 +49,44 @@
   <div class="inicio-text">
     <h1>Bienvenidos a HOUSE FINDER</h1>
     <p>Somos tu mejor opción para encontrar la casa o departamento de tus sueños. En HOUSE FINDER, nos comprometemos a proporcionarte las mejores opciones de vivienda, ya sea que estés buscando tu primer hogar, una propiedad de inversión o el lugar perfecto para tu familia. Navega a través de nuestras propiedades, conoce nuestros proyectos y descubre oportunidades de promoción exclusivas. ¡Estamos aquí para ayudarte a encontrar el lugar que siempre has deseado!</p>
-    <button class="btn-learn">Aprende Más</button>
   </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
 
   <!-- Tres Columnas en una Fila -->
   <!-- Tres Columnas en una Fila -->
 <div class="row">
   <!-- Columna 1 -->
   <div class="column">
-    <img src="logo.png" alt="Imagen 1" style="width: 200px; height: 200px;"/>
+    <img src="casa1.jpg" alt="Imagen 1" style="width: 300px; height: 200px;"/>
     <h2>Encuentra tu Hogar Ideal</h2>
     <p>Explora una amplia gama de propiedades en las mejores ubicaciones. Tenemos opciones para todos los gustos y presupuestos.</p>
   </div>
 
   <!-- Columna 2 -->
   <div class="column">
-    <img src="/logo.png" alt="Imagen 2" style="width: 200px; height: 200px;" />
+    <img src="/casa2.jpg" alt="Imagen 2" style="width: 300px; height: 200px;" />
     <h2>Proyectos Innovadores</h2>
     <p>Descubre nuestros proyectos de desarrollo inmobiliario que ofrecen comodidad y estilo de vida moderno.</p>
   </div>
 
   <!-- Columna 3 -->
   <div class="column">
-    <img src="logo.png" alt="Imagen 3" style="width: 200px; height: 200px;" />
+    <img src="casa3.jpg" alt="Imagen 3" style="width: 300px; height: 200px;" />
     <h2>Promociones Exclusivas</h2>
     <p>Aprovecha nuestras promociones especiales y descuentos en propiedades seleccionadas. ¡No te las pierdas!</p>
   </div>
 </div>
 
 </section>
+
+
+<br>
+<br>
+<br>
 
 
 
@@ -277,7 +286,8 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+  max-width: 1200px; /* Ancho máximo del contenedor de filas */
+  margin: 0 auto;}
 
 /* Estilos para cada columna */
 .column {
@@ -305,6 +315,15 @@ export default {
 .btn-learn:hover {
   background-color: #12407c; /* Negro en hover */
   color: #fff; /* Texto blanco en hover */
+}
+
+.inicio-text {
+  width: 50%; /* Ajusta el ancho del div al 50% del ancho de la ventana del navegador */
+  font-size: 20px;
+  margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  
 }
 
 </style>
