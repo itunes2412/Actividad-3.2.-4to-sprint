@@ -16,7 +16,7 @@
       </ul>
 
       <div>
-        <router-link to="/contacto">
+        <router-link to="/login">
           <button class="login-button">Iniciar Sesión</button>
         </router-link>
       </div>
