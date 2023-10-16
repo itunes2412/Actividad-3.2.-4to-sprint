@@ -3,12 +3,7 @@
     <!-- Menú de Navegación -->
     <nav class="navbar">
       <div class="logo" @click="toggleLogoSize">
-        <img
-          :style="{ 'transform': `scale(${logoScale})` }"
-          src="/logo.png"
-          alt="Logo"
-          @click.stop
-        />
+        <img :style="{ 'transform': `scale(${logoScale})` }" src="/logo.png" alt="Logo" @click.stop="handleClick"/>
       </div>
       <ul class="menu">
         <li><router-link to="/"></router-link></li>
@@ -56,6 +51,8 @@
   <br>
   <br>
 
+  
+
   <!-- Tres Columnas en una Fila -->
   <!-- Tres Columnas en una Fila -->
 <div class="row">
@@ -88,6 +85,16 @@
 <br>
 <br>
 
+<div class="banner">
+  <img src="/banner2.png" alt="banner" style="width: 90%; height: 35%;" />
+</div>
+<div class="nosotros">
+  <h1>Nosotros</h1>
+  
+  <p>En House Finder, nos dedicamos apasionadamente a ayudarte a encontrar el hogar perfecto. Nuestra misión es facilitar el proceso de búsqueda de casas y renta de departamentos, brindando soluciones integrales y personalizadas para satisfacer tus necesidades específicas.</p>
+  <p>Con una amplia red de propiedades verificadas y una sólida comprensión del mercado inmobiliario, estamos comprometidos a hacer que tu experiencia de búsqueda sea sin complicaciones y gratificante. Nuestro equipo de expertos en bienes raíces está aquí para asesorarte en cada paso del camino y garantizar que encuentres un lugar que puedas llamar hogar con confianza y comodidad.</p>
+  <p>Ya sea que estés buscando una casa familiar espaciosa, un acogedor apartamento o una propiedad de inversión, estamos aquí para convertir tus sueños en realidad. Con House Finder, descubrir tu nuevo hogar es más que una transacción: es una experiencia emocionante y gratificante.</p>
+</div>
 
 
       <!-- Resto del contenido de la página -->
@@ -322,8 +329,52 @@ export default {
   font-size: 20px;
   margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: justify;
   
 }
+
+.nosotros {
+  width: 50%;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  padding-bottom: 50px; /* Agrega un padding de 20 píxeles en la parte inferior del div */
+}
+
+.footer {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-column {
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.footer-column span {
+  font-size: 14px; /* Tamaño de fuente base para pantallas más grandes */
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-column {
+    max-width: 100%;
+  }
+  
+  .footer-column span {
+    font-size: 12px; /* Ajuste de tamaño de fuente para pantallas más pequeñas */
+  }
+}
+
 
 </style>
