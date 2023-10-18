@@ -5,15 +5,7 @@
       <div class="logo" @click="toggleLogoSize">
         <img :style="{ 'transform': `scale(${logoScale})` }" src="/logo.png" alt="Logo" @click.stop="handleClick"/>
       </div>
-      <ul class="menu">
-        <li><router-link to="/"></router-link></li>
-        <li><router-link to="/nosotros"></router-link></li>
-        <li><router-link to="/propiedades"></router-link></li>
-        <li><router-link to="/proyectos"></router-link></li>
-        <li><router-link to="/promocion"></router-link></li>
-        <li><router-link to="/contacto"></router-link></li>
-        <li><router-link to="/blog"></router-link></li>
-      </ul>
+      
 
       <div>
         <router-link to="/login">
@@ -84,16 +76,106 @@
 <br>
 <br>
 <br>
-
-<div class="banner">
-  <img src="/banner2.png" alt="banner" style="width: 90%; height: 35%;" />
-</div>
-<div class="nosotros">
-  <h1>Nosotros</h1>
-  
-  <p>En House Finder, nos dedicamos apasionadamente a ayudarte a encontrar el hogar perfecto. Nuestra misión es facilitar el proceso de búsqueda de casas y renta de departamentos, brindando soluciones integrales y personalizadas para satisfacer tus necesidades específicas.</p>
+<div class="section">
+  <div class="banner">
+    <img src="/banner2.png" alt="banner" style="width: 90%; height: 35%;" />
+      </div>
+        <div class="nosotros">
+          <h1>Nosotros</h1>
+  <p>En <b>House Finder</b>, nos dedicamos apasionadamente a ayudarte a encontrar el hogar perfecto. Nuestra misión es facilitar el proceso de búsqueda de casas y renta de departamentos, brindando soluciones integrales y personalizadas para satisfacer tus necesidades específicas.</p>
   <p>Con una amplia red de propiedades verificadas y una sólida comprensión del mercado inmobiliario, estamos comprometidos a hacer que tu experiencia de búsqueda sea sin complicaciones y gratificante. Nuestro equipo de expertos en bienes raíces está aquí para asesorarte en cada paso del camino y garantizar que encuentres un lugar que puedas llamar hogar con confianza y comodidad.</p>
   <p>Ya sea que estés buscando una casa familiar espaciosa, un acogedor apartamento o una propiedad de inversión, estamos aquí para convertir tus sueños en realidad. Con House Finder, descubrir tu nuevo hogar es más que una transacción: es una experiencia emocionante y gratificante.</p>
+</div>
+</div>
+
+<div class="section1">
+  <div class="row1">
+    <div class="column1">
+      <img src="/mision.jpg" alt="Misión">
+    </div>
+    <div class="column1">
+      <h1>Nuestra Misión</h1>
+      <p>En <b>House Finder</b>, nuestra misión es proporcionar un servicio excepcional a nuestros clientes, brindándoles asesoramiento integral y soluciones personalizadas para sus necesidades de alquiler de casas y departamentos. Nos esforzamos por simplificar y hacer placentera la experiencia de encontrar un nuevo hogar.</p>
+      <p>Con un enfoque en la transparencia y la confiabilidad, trabajamos arduamente para construir relaciones duraderas con nuestros clientes, asegurándonos de que cada paso del proceso de alquiler esté respaldado por nuestra experiencia y conocimiento profundo del mercado inmobiliario.</p>
+    </div>
+  </div>
+  <div class="row1">
+    <div class="column1">
+      <h1>Nuestra Visión</h1>
+      <p>Nuestra visión es convertirnos en el recurso líder y más confiable para aquellos que buscan alquilar propiedades. Nos esforzamos por ofrecer una amplia gama de opciones de vivienda de calidad, facilitando a nuestros clientes la búsqueda de un hogar que se adapte a sus necesidades y estilo de vida.</p>
+      <p>Mediante la innovación constante y la adaptación a las últimas tendencias del mercado inmobiliario, aspiramos a establecer un estándar de excelencia en el servicio al cliente y a ser reconocidos como el socio preferido en la búsqueda de propiedades de alquiler confiables y asequibles.</p>
+    </div>
+    <div class="column1">
+      <img src="/vision.webp" alt="Visión">
+    </div>
+  </div>
+</div>
+
+<div class="promos">
+  <div class="banner">
+    <img src="/banner3.png" alt="banner" style="width: 90%; height: 35%; padding-bottom: 5%;" />
+  </div>
+  <h1 class="lomasplus">Lo PLUS+ </h1>
+  <p class="lomasplus">+ de House Finder, te presentamos las publicaciones más actuales y las más cliqueadas del momento. Nuestro compromiso es brindarte acceso a las propiedades más destacadas y buscadas en el mercado actual. Con un enfoque en la calidad, la integridad y la satisfacción del cliente, estamos dedicados a ayudarte a encontrar la propiedad perfecta que se adapte a tu estilo de vida. ¡Permítenos ser tu guía en esta emocionante búsqueda!</p>
+
+  
+  <div class="card">
+      <img src="casa7.jpg" alt="Casa en Jalisco" onclick="window.location.href='link_a_tu_página'">
+      <h2>Casa en Jalisco</h2>
+      <p class="price"><b>$20,000 por mes</b></p>
+      <p>Amplia casa en un vecindario tranquilo. 3 dormitorios, 2 baños.</p>
+  </div>
+
+  <div class="card">
+      <img src="casa5.jpg" alt="Casa en Guanajuato" onclick="window.location.href='link_a_tu_página'">
+      <h2>Casa en Guanajuato</h2>
+      <p class="price"><b>$20,000 por mes</b></p>
+      <p>Acogedora casa con jardín y terraza. 2 dormitorios, 1 baño.</p>
+  </div>
+
+  <div class="card">
+      <img src="casa6.jpg" alt="Casa en Quintana Roo" onclick="window.location.href='link_a_tu_página'">
+      <h2>Casa en Quintana Roo</h2>
+      <p class="price"><b>$20,000 por mes</b></p>
+      <p>Moderna casa cerca de la playa. 4 dormitorios, 3 baños.</p>
+  </div>
+
+  <div class="card">
+      <img src="depa1.jpeg" alt="Departamento en Veracruz" onclick="window.location.href='link_a_tu_página'">
+      <h2>Departamento en Veracruz</h2>
+      <p class="price"><b>$20,000 por mes</b></p>
+      <p>Luminoso departamento en el centro de la ciudad. 1 dormitorio, 1 baño.</p>
+  </div>
+
+  <div class="card">
+      <img src="depa2.jpg" alt="Departamento en Querétaro" onclick="window.location.href='link_a_tu_página'">
+      <h2>Departamento en Querétaro</h2>
+      <p class="price"><b>$20,000 por mes</b></p>
+      <p>Moderno departamento con excelentes vistas. 2 dormitorios, 1 baño.</p>
+  </div>
+
+  <!-- Añade más elementos aquí -->
+
+  <div class="card">
+      <img src="casa4.jpg" alt="Casa en Nuevo León" onclick="window.location.href='link_a_tu_página'">
+      <h2>Casa en Nuevo León</h2>
+      <p class="price"><b>$20,000 por mes</b></p>
+      <p>Encantadora casa con patio trasero amplio. 3 dormitorios, 2 baños.</p>
+  </div>
+
+  <div class="card">
+      <img src="casa5.jpg" alt="Casa en Puebla" onclick="window.location.href='link_a_tu_página'">
+      <h2>Casa en Puebla</h2>
+      <p class="price"><b>$20,000 por mes</b></p>
+      <p>Casa tradicional con diseño moderno. 4 dormitorios, 2 baños.</p>
+  </div>
+
+  <div class="card">
+      <img src="depa3.png" alt="Departamento en Yucatán" onclick="window.location.href='link_a_tu_página'">
+      <h2>Departamento en Yucatán</h2>
+      <p class="price"><b>$20,000 por mes</b></p>
+      <p>Departamento con vista al mar. 3 dormitorios, 2 baños.</p>
+  </div>
 </div>
 
 
@@ -231,6 +313,7 @@ export default {
   max-height: 150px; /* Tamaño inicial del logo */
   transition: max-height 0.3s ease; /* Transición suave de tamaño */
   cursor: pointer; /* Cambia el cursor al hacer clic */
+  padding-left: 50px;
 }
 
 /* Estilos para el menú */
@@ -251,16 +334,24 @@ export default {
   color: #ba8c26; /* Dorado en hover */
 }
 
+.section  {
+    background-color: #e3b653; /* Color de fondo deseado */
+    padding: 20px; /* Ajusta el relleno según sea necesario */
+  }
+  .lomasplus {
+    color: #ffffff; /* Cambia este valor al color que desees */
+}
+
 /* Estilos para el botón de inicio de sesión */
 .login-button {
   background-color: #caa24c; /* Dorado */
   color: #292929; /* Texto negro */
   border: none;
   padding: 10px 20px;
-  border-radius: 20px;
+  border-radius: 15px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
-  margin-right: 100px; /* Añadido margen derecho */
+  margin-right: 80px; /* Añadido margen derecho */
 }
 
 .login-button:hover {
@@ -277,6 +368,40 @@ export default {
 .banner {
   /* Personaliza los estilos del banner aquí */
 }
+.promos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.promos .card {
+  flex: 1 1 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.promos .card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  cursor: pointer;
+}
+
+.promos .card h2 {
+  color: #ba8c26;
+}
+
+.promos .card p {
+  color: rgb(255, 255, 255);
+}
+
+
+.promos  {
+  
+  background-color: #4c4c4c; /* Color de fondo deseado */
+  padding: 20px; /* Ajusta el relleno según sea necesario */
+}
 
 /* Estilos para el texto de inicio */
 .inicio-text {
@@ -286,6 +411,33 @@ export default {
 /* Estilos para el botón "Aprende Más" */
 .btn-learn-more {
   /* Personaliza los estilos del botón "Aprende Más" aquí */
+}
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.row1 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  text-align: justify;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.row1 .column1 {
+  flex: 1;
+  padding: 20px;
+}
+
+.row1 .column1 img {
+  width: 100%;
+  max-width: 300px;
 }
 
 /* Estilos para la fila de columnas */
