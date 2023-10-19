@@ -8,7 +8,7 @@
       
 
       <div>
-        <router-link to="/login">
+        <router-link to="/loginform">
           <button class="login-button">Iniciar Sesión</button>
         </router-link>
       </div>
@@ -115,8 +115,8 @@
   <div class="banner">
     <img src="/banner3.png" alt="banner" style="width: 90%; height: 35%; padding-bottom: 5%;" />
   </div>
-  <h1 class="lomasplus">Lo PLUS+ </h1>
-  <p class="lomasplus">+ de House Finder, te presentamos las publicaciones más actuales y las más cliqueadas del momento. Nuestro compromiso es brindarte acceso a las propiedades más destacadas y buscadas en el mercado actual. Con un enfoque en la calidad, la integridad y la satisfacción del cliente, estamos dedicados a ayudarte a encontrar la propiedad perfecta que se adapte a tu estilo de vida. ¡Permítenos ser tu guía en esta emocionante búsqueda!</p>
+  <h1 class="lomasplus">Los mas vistos</h1>
+  <p class="lomasplus">En House Finder, te presentamos las publicaciones más actuales y las más cliqueadas del momento. Nuestro compromiso es brindarte acceso a las propiedades más destacadas y buscadas en el mercado actual. Con un enfoque en la calidad, la integridad y la satisfacción del cliente, estamos dedicados a ayudarte a encontrar la propiedad perfecta que se adapte a tu estilo de vida. ¡Permítenos ser tu guía en esta emocionante búsqueda!</p>
 
   
   <div class="card">
