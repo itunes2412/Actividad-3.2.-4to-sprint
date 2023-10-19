@@ -9,7 +9,7 @@
 
       <div>
         <router-link to="/loginform">
-          <button class="login-button">Iniciar Sesión</button>
+          <button class="login-button"><b>Contacto</b></button>
         </router-link>
       </div>
 
@@ -94,14 +94,14 @@
       <img src="/mision.jpg" alt="Misión">
     </div>
     <div class="column1">
-      <h1>Nuestra Misión</h1>
+      <h1>Misión</h1>
       <p>En <b>House Finder</b>, nuestra misión es proporcionar un servicio excepcional a nuestros clientes, brindándoles asesoramiento integral y soluciones personalizadas para sus necesidades de alquiler de casas y departamentos. Nos esforzamos por simplificar y hacer placentera la experiencia de encontrar un nuevo hogar.</p>
       <p>Con un enfoque en la transparencia y la confiabilidad, trabajamos arduamente para construir relaciones duraderas con nuestros clientes, asegurándonos de que cada paso del proceso de alquiler esté respaldado por nuestra experiencia y conocimiento profundo del mercado inmobiliario.</p>
     </div>
   </div>
   <div class="row1">
     <div class="column1">
-      <h1>Nuestra Visión</h1>
+      <h1>Visión</h1>
       <p>Nuestra visión es convertirnos en el recurso líder y más confiable para aquellos que buscan alquilar propiedades. Nos esforzamos por ofrecer una amplia gama de opciones de vivienda de calidad, facilitando a nuestros clientes la búsqueda de un hogar que se adapte a sus necesidades y estilo de vida.</p>
       <p>Mediante la innovación constante y la adaptación a las últimas tendencias del mercado inmobiliario, aspiramos a establecer un estándar de excelencia en el servicio al cliente y a ser reconocidos como el socio preferido en la búsqueda de propiedades de alquiler confiables y asequibles.</p>
     </div>
@@ -116,7 +116,7 @@
     <img src="/banner3.png" alt="banner" style="width: 90%; height: 35%; padding-bottom: 5%;" />
   </div>
   <h1 class="lomasplus">Los mas vistos</h1>
-  <p class="lomasplus">En House Finder, te presentamos las publicaciones más actuales y las más cliqueadas del momento. Nuestro compromiso es brindarte acceso a las propiedades más destacadas y buscadas en el mercado actual. Con un enfoque en la calidad, la integridad y la satisfacción del cliente, estamos dedicados a ayudarte a encontrar la propiedad perfecta que se adapte a tu estilo de vida. ¡Permítenos ser tu guía en esta emocionante búsqueda!</p>
+  <p class="lomasplus">En House Finder, te presentamos las últimas publicaciones más relevantes y populares del momento. Nuestro compromiso es brindarte acceso a las propiedades más destacadas y buscadas en el mercado actual. Con un enfoque centrado en la excelencia, la integridad y la plena satisfacción del cliente, nos dedicamos a ayudarte a encontrar la propiedad perfecta que se ajuste a tu estilo de vida. ¡Déjanos ser tu guía en esta emocionante búsqueda!</p>
 
   
   <div class="card">
@@ -399,7 +399,7 @@ export default {
 
 .promos  {
   
-  background-color: #4c4c4c; /* Color de fondo deseado */
+  background-color: #252525; /* Color de fondo deseado */
   padding: 20px; /* Ajusta el relleno según sea necesario */
 }
 

@@ -1,11 +1,7 @@
 <template>
   <div class="app">
     <!-- Menú de Navegación -->
-    <nav class="navbar">
-     
-     
-      
-    </nav>
+   
 
     <!-- Contenido de la Página -->
     <main class="content">
@@ -13,7 +9,7 @@
       <section class="inicio-section">
       
       </section>
-
+      <h2 style="color: #ba8c26; font-size: 40px;">Contacto</h2>
       <div class="left-image-container">
         <img src="/logo.png" alt="Imagen" class="left-image"/>
       </div>
@@ -21,9 +17,12 @@
       <div class="login-block">
         <div class="left-image-container">
         </div>
-        <h2 style="color: #ba8c26; font-size: 40px;">Contacto</h2>
-
+        
+        
         <form @submit.prevent="submitForm">
+          
+          <br>
+          <br>
           <div class="form-group">
             <label for="username" style="color: #1f1f1f;">Nombre</label>
             <input type="text" id="username" name="username" v-model="formData.uname" required class="input-field">
@@ -46,11 +45,9 @@
       </div>
       
 
-      
       <br>
       <br>
-      <!-- Resto del contenido de la página -->
-      <!-- Puedes agregar más secciones y contenido aquí -->
+
     </main>
 
     <!-- Footer -->
@@ -107,15 +104,16 @@ export default {
 
 /* Estilos para el contenedor de la imagen a la izquierda */
 .left-image-container {
-  padding-left:  200px;
+  padding-top: 25px;
+  padding-left: 200px;
   float: left;
 }
 
 /* Estilos para la imagen */
 .left-image {
-  max-width: 400px;
-  max-height: 400px;
-  border-radius: 5px;
+  max-width: 450px;
+  max-height: 45s0px;
+  border-radius: 1000px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -191,7 +189,9 @@ export default {
 
 /* Estilos para el formulario */
 .form-group {
+  font-size: 25px;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .input-field {
@@ -199,7 +199,7 @@ export default {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 

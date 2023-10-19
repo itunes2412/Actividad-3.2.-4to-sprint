@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginForm from '../components/LoginForm.vue'
 
+
 const routes = [
   {
     path: '/',
@@ -13,6 +14,7 @@ const routes = [
     name: 'loginform', // Cambia a minúsculas
     component: LoginForm
   },
+  
   {
     path: '/about',
     name: 'about',

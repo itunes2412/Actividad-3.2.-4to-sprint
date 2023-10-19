@@ -19,16 +19,11 @@
         <li><router-link to="/contacto"></router-link></li>
         <li><router-link to="/blog"></router-link></li>
       </ul>
-
       <div>
         <router-link to="/login">
-          <button class="login-button">Iniciar Sesión</button>
+          <button class="login-button">Contactanos</button>
         </router-link>
       </div>
-
-
-      
-      
     </nav>
 
     <!-- Contenido de la Página -->
@@ -46,7 +41,7 @@
   
 
   <!-- Texto de Inicio -->
-  <div class="inicio-text">
+  <div class="inicio-text"><br>
     <h1>Bienvenidos a HOUSE FINDER</h1>
     <p>Somos tu mejor opción para encontrar la casa o departamento de tus sueños. En HOUSE FINDER, nos comprometemos a proporcionarte las mejores opciones de vivienda, ya sea que estés buscando tu primer hogar, una propiedad de inversión o el lugar perfecto para tu familia. Navega a través de nuestras propiedades, conoce nuestros proyectos y descubre oportunidades de promoción exclusivas. ¡Estamos aquí para ayudarte a encontrar el lugar que siempre has deseado!</p>
   </div>
