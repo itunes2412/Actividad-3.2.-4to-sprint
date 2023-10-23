@@ -12,9 +12,6 @@
           <button class="login-button"><b>Contacto</b></button>
         </router-link>
       </div>
-
-
-      
       
     </nav>
 
@@ -43,32 +40,35 @@
   <br>
   <br>
 
+  <div class="row">
+    <!-- Columna 1 -->
+    <div class="column">
+      <a href="/ruta-de-tu-archivo-vue1">
+        <img src="casa1.jpg" alt="Imagen 1" style="width: 300px; height: 200px;"/>
+      </a>
+      <h2>Encuentra tu Hogar Ideal</h2>
+      <p>Explora una amplia gama de propiedades en las mejores ubicaciones. Tenemos opciones para todos los gustos y presupuestos.</p>
+    </div>
   
-
-  <!-- Tres Columnas en una Fila -->
-  <!-- Tres Columnas en una Fila -->
-<div class="row">
-  <!-- Columna 1 -->
-  <div class="column">
-    <img src="casa1.jpg" alt="Imagen 1" style="width: 300px; height: 200px;"/>
-    <h2>Encuentra tu Hogar Ideal</h2>
-    <p>Explora una amplia gama de propiedades en las mejores ubicaciones. Tenemos opciones para todos los gustos y presupuestos.</p>
+    <!-- Columna 2 -->
+    <div class="column">
+      <a href="/ruta-de-tu-archivo-vue2">
+        <img src="/casa2.jpg" alt="Imagen 2" style="width: 300px; height: 200px;" />
+      </a>
+      <h2>Proyectos Innovadores</h2>
+      <p>Descubre nuestros proyectos de desarrollo inmobiliario que ofrecen comodidad y estilo de vida moderno.</p>
+    </div>
+  
+    <!-- Columna 3 -->
+    <div class="column">
+      <a href="/ruta-de-tu-archivo-vue3">
+        <img src="casa3.jpg" alt="Imagen 3" style="width: 300px; height: 200px;" />
+      </a>
+      <h2>Promociones Exclusivas</h2>
+      <p>Aprovecha nuestras promociones especiales y descuentos en propiedades seleccionadas. ¡No te las pierdas!</p>
+    </div>
   </div>
-
-  <!-- Columna 2 -->
-  <div class="column">
-    <img src="/casa2.jpg" alt="Imagen 2" style="width: 300px; height: 200px;" />
-    <h2>Proyectos Innovadores</h2>
-    <p>Descubre nuestros proyectos de desarrollo inmobiliario que ofrecen comodidad y estilo de vida moderno.</p>
-  </div>
-
-  <!-- Columna 3 -->
-  <div class="column">
-    <img src="casa3.jpg" alt="Imagen 3" style="width: 300px; height: 200px;" />
-    <h2>Promociones Exclusivas</h2>
-    <p>Aprovecha nuestras promociones especiales y descuentos en propiedades seleccionadas. ¡No te las pierdas!</p>
-  </div>
-</div>
+  
 
 </section>
 
@@ -115,7 +115,7 @@
   <div class="banner">
     <img src="/banner3.png" alt="banner" style="width: 90%; height: 35%; padding-bottom: 5%;" />
   </div>
-  <h1 class="lomasplus">Los mas vistos</h1>
+  <h1 class="lomasplus">Lo + reciente</h1>
   <p class="lomasplus">En House Finder, te presentamos las últimas publicaciones más relevantes y populares del momento. Nuestro compromiso es brindarte acceso a las propiedades más destacadas y buscadas en el mercado actual. Con un enfoque centrado en la excelencia, la integridad y la plena satisfacción del cliente, nos dedicamos a ayudarte a encontrar la propiedad perfecta que se ajuste a tu estilo de vida. ¡Déjanos ser tu guía en esta emocionante búsqueda!</p>
 
   
@@ -186,88 +186,15 @@
     <!-- Footer -->
     <!-- Footer -->
     <footer class="footer">
-      <table>
-        <tr>
-          <td class="footer-cell">
-            <strong style="color: #ba8c26;">JALISCO</strong><br>
-            <span style="font-size: 12px;">
-              Av. Acueducto 4851 Real Acueducto,<br>
-              C.P. 45116. Zapopan, Jalisco.<br><br>
-              T. 333 642 5065<br>
-              W. 333 253 0684<br>
-              infojalisco@activoinmobiliario.mx<br><br>
-              L-V de 9:30 a 19:30 h<br>
-              S y D de 9:30 a 14:00 h
-            </span>
-          </td>
-          <td class="footer-cell">
-            <strong style="color: #ba8c26;">GUANAJUATO</strong><br>
-            <span style="font-size: 12px;">
-              Paseo El Molino 302, El Molino Residencial,<br>
-              C.P. 37138, León, Guanajuato, México.<br><br>
-              T. 477 781 1119<br>
-              W. 477 852 4437<br>
-              infoleon@activoinmobiliario.mx<br><br>
-              L-V de 9:00 a 20:00 h<br>
-              S de 9:00 a 19:00 h<br>
-              D y festivos de 11:00 a 19:00 h
-            </span>
-          </td>
-          <td class="footer-cell">
-            <strong style="color: #ba8c26;">QUERÉTARO</strong><br>
-            <span style="font-size: 12px;">
-              Av el campanario 100 fracc. Hacienda el Campanario,<br>
-              C.P. 76146, Querétaro, Querétaro, México.<br><br>
-              T. 442 192 7722<br>
-              W. 442 503 0960<br>
-              infoqueretaro@activoinmobiliario.mx<br><br>
-              L-V de 9:00 a 20:00 h<br>
-              S de 9:00 a 19:00 h<br>
-              D y festivos de 11:00 a 19:00 h
-            </span>
-          </td>
-          <td class="footer-cell">
-            <strong style="color: #ba8c26;">QUINTANA ROO</strong><br>
-            <span style="font-size: 12px;">
-              Carretera Federal Cancun – Chetumal Km 299<br>
-              C.P 77500 Playa del Carmen, Q.R<br><br>
-              T. 9841005901<br>
-              W. 9841005901<br>
-              infoquintanaroo@activoinmobiliario.mx<br><br>
-              L-V de 9:00 a 18:00 h<br>
-              S, D y festivos de 10:00 a 16:00 h
-            </span>
-          </td>
-          <td class="footer-cell">
-            <strong style="color: #ba8c26;">VERACRUZ</strong><br>
-            <span style="font-size: 12px;">
-              Km. 4.5 Carretera Federal, Antón Lizardo,<br>
-              95264 Boca del Río, Ver.<br><br>
-              T. 229 179 4444<br>
-              W. 229 168 2680<br>
-              infoveracruz@activoinmobiliario.mx<br><br>
-              L-V de 9:00 a 19:00 h<br>
-              S de 10:00 a 18:00 h<br>
-              D y festivos de 11:00 a 18:00 h
-            </span>
-          </td>
-          <td class="footer-cell">
-            <strong style="color: #ba8c26;">CHIHUAHUA</strong><br>
-            <span style="font-size: 12px;">
-              Edificio Metroloft, Oficina 209, Segundo piso,<br>
-              Calle Citadela, número 5900, Distrito Uno, colonia El Saucito.<br><br>
-              T. 567 179 56742<br>
-              W. 229 168 2680<br>
-              infoveracruz@activoinmobiliario.mx<br><br>
-              L-V de 9:00 a 19:00 h<br>
-              S de 10:00 a 18:00 h<br>
-              D y festivos de 11:00 a 18:00 h
-            </span>
-          </td>
-        </tr>
-      </table>
+     
+      
+      
       <p style="font-size: 12px;">&copy; 2023 House Finder. Todos los derechos reservados.</p>
     </footer>
+    <p class="privacy-notice">
+      <router-link to="/avisoprivacidad">Aviso de Privacidad</router-link>
+    </p>
+  
   </div>
 </template>
 
@@ -340,6 +267,10 @@ export default {
   }
   .lomasplus {
     color: #ffffff; /* Cambia este valor al color que desees */
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    font-size: larger;
 }
 
 /* Estilos para el botón de inicio de sesión */
@@ -414,30 +345,29 @@ export default {
 }
 .section1 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
 
 .row1 {
-  flex: 1;
-  width: 100%;
   display: flex;
-  text-align: justify;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
-.row1 .column1 {
+.column1 {
   flex: 1;
   padding: 20px;
+  text-align: justify;
 }
 
-.row1 .column1 img {
+.column1 img {
   width: 100%;
-  max-width: 300px;
+  max-width: 500px;
+  height: auto;
 }
 
 /* Estilos para la fila de columnas */
@@ -526,6 +456,21 @@ export default {
   .footer-column span {
     font-size: 12px; /* Ajuste de tamaño de fuente para pantallas más pequeñas */
   }
+}
+
+.privacy-notice {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.privacy-notice a {
+  color: #ba8c26; /* Cambia este valor al color que desees */
+  text-decoration: none;
+}
+
+.privacy-notice a:hover {
+  text-decoration: underline;
 }
 
 

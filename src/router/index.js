@@ -1,6 +1,9 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginForm from '../components/LoginForm.vue'
+import CorreoEnviado from '../components/CorreoEnviado.vue'
+import AvisoPrivacidad from '../components/AvisoPrivacidad.vue'
+
 
 
 const routes = [
@@ -14,6 +17,17 @@ const routes = [
     name: 'loginform', // Cambia a minúsculas
     component: LoginForm
   },
+  {
+    path: '/correo-enviado',
+    name: 'CorreoEnviado',
+    component: CorreoEnviado,
+  },
+  {
+    path: '/avisoprivacidad',
+    name: 'AvisoPrivacidad',
+    component: AvisoPrivacidad,
+  },
+  
   
   {
     path: '/about',

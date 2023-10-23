@@ -11,6 +11,8 @@ import Blog from './components/Blog.vue'
 import Registro from './components/Registro.vue'
 
 
+
+
 const routes = [
   {
     path: '/',
@@ -52,6 +54,9 @@ const routes = [
     name: 'Registro',
     component: Registro
   },
+  
+  
+  
 ]
 
 const router = createRouter({

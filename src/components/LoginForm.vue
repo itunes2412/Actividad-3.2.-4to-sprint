@@ -1,53 +1,73 @@
 <template>
   <div class="app">
     <!-- Menú de Navegación -->
-   
 
     <!-- Contenido de la Página -->
     <main class="content">
       <!-- Sección de Inicio -->
-      <section class="inicio-section">
-      
-      </section>
+      <section class="inicio-section"></section>
       <h2 style="color: #ba8c26; font-size: 40px;">Contacto</h2>
       <div class="left-image-container">
-        <img src="/logo.png" alt="Imagen" class="left-image"/>
+        <img src="/logo.png" alt="Imagen" class="left-image" />
       </div>
 
       <div class="login-block">
-        <div class="left-image-container">
-        </div>
-        
-        
+        <div class="left-image-container"></div>
+
         <form @submit.prevent="submitForm">
-          
-          <br>
-          <br>
+          <br />
+          <br />
           <div class="form-group">
             <label for="username" style="color: #1f1f1f;">Nombre</label>
-            <input type="text" id="username" name="username" v-model="formData.uname" required class="input-field">
+            <input
+              type="text"
+              id="username"
+              name="username"
+              v-model="formData.username"
+              required
+              class="input-field"
+            />
           </div>
           <div class="form-group">
             <label for="lastname" style="color: #1f1f1f;">Apellido</label>
-            <input type="text" id="lastname" name="lastname" v-model="formData.lastname" required class="input-field">
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              v-model="formData.lastname"
+              required
+              class="input-field"
+            />
           </div>
           <div class="form-group">
             <label for="email" style="color: #1f1f1f;">Correo Electrónico</label>
-            <input type="email" id="email" name="email" v-model="formData.email" required class="input-field">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              v-model="formData.email"
+              required
+              class="input-field"
+            />
           </div>
           <div class="form-group">
             <label for="message" style="color: #1f1f1f;">Mensaje</label>
-            <textarea id="message" name="message" v-model="formData.message" required class="input-field"></textarea>
+            <textarea
+              id="message"
+              name="message"
+              v-model="formData.message"
+              required
+              class="input-field"
+            ></textarea>
           </div>
-          <button type="submit" :disabled="loading" class="login-button" @click="redirectToHome">Enviar</button>
-
-        </form>       
+          <button type="submit" :disabled="loading" class="login-button">
+            Enviar
+          </button>
+        </form>
       </div>
-      
 
-      <br>
-      <br>
-
+      <br />
+      <br />
     </main>
 
     <!-- Footer -->
@@ -56,52 +76,44 @@
         <!-- Información del footer -->
         <!-- Ajusta los estilos según tus necesidades -->
       </table>
-      <p style="font-size: 12px; color: #ba8c26;">&copy; 2023 House Finder. Todos los derechos reservados.</p>
+      <p style="font-size: 12px; color: #ba8c26;">
+        &copy; 2023 House Finder. Todos los derechos reservados.
+      </p>
     </footer>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: "App",
   data() {
     return {
-      logoScale: 1, // Escala inicial del logo
-      showLoginBlock: false, // Controla la visibilidad del bloque de inicio de sesión
+      logoScale: 1,
+      showLoginBlock: false,
       formData: {
-        username: '',
-        password: '',
+        username: "",
+        lastname: "",
+        email: "",
+        message: "",
       },
       loading: false,
-      error: '',
+      error: "",
     };
   },
   methods: {
-    toggleLogoSize() {
-      // Cambia la escala del logo al 150% cuando se hace clic
-      this.logoScale = this.logoScale === 1 ? 1.5 : 1;
-    },
-    login() {
-      // Aquí puedes agregar la lógica de autenticación.
-      // Simulación de una solicitud asincrónica con un timeout.
+    submitForm() {
       this.loading = true;
+      // Simulación de redirección
       setTimeout(() => {
-        if (this.formData.username === 'usuario' && this.formData.password === 'contraseña') {
-          // Autenticación exitosa, redirigir al usuario o realizar otras acciones.
-          this.error = '';
-        } else {
-          // Error de autenticación.
-          this.error = 'Credenciales incorrectas. Inténtalo de nuevo.';
-        }
         this.loading = false;
-      }, 2000);
+        this.$router.push("/correo-enviado");
+      }, 2000); // Redirige a "CorreoEnviado" después de 2 segundos
     },
   },
 };
 </script>
 
 <style scoped>
-
 /* Estilos para el contenedor de la imagen a la izquierda */
 .left-image-container {
   padding-top: 25px;
@@ -112,7 +124,7 @@ export default {
 /* Estilos para la imagen */
 .left-image {
   max-width: 450px;
-  max-height: 45s0px;
+  max-height: 450px;
   border-radius: 1000px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -121,7 +133,7 @@ export default {
 /* Ajusta los estilos según tus necesidades y utiliza las variables de color definidas. */
 /* Estilos para el esqueleto de la página */
 .app {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
@@ -167,9 +179,6 @@ export default {
   margin-left: auto; /* Mueve el bloque al lado derecho de la ventana */
 }
 
-
-
-
 /* Estilos para el botón de inicio de sesión */
 .login-button {
   background-color: #caa24c; /* Dorado */
@@ -201,7 +210,6 @@ export default {
   border-radius: 5px;
   font-size: 20px;
 }
-
 
 /* Resto de tus estilos */
 /* Ajusta los estilos según tus necesidades y utiliza las variables de color definidas. */
