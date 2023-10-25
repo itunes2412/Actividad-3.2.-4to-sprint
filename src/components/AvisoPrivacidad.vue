@@ -60,7 +60,7 @@
   }
   
   .privacy-header {
-    color: #333;
+    color: #caa24c;
     text-align: center;
     margin-bottom: 30px;
   }

@@ -115,7 +115,8 @@
   <div class="banner">
     <img src="/banner3.png" alt="banner" style="width: 90%; height: 35%; padding-bottom: 5%;" />
   </div>
-  <h1 class="lomasplus">Lo + reciente</h1>
+  <h1 class="capitulo">Lo + reciente</h1>
+  
   <p class="lomasplus">En House Finder, te presentamos las últimas publicaciones más relevantes y populares del momento. Nuestro compromiso es brindarte acceso a las propiedades más destacadas y buscadas en el mercado actual. Con un enfoque centrado en la excelencia, la integridad y la plena satisfacción del cliente, nos dedicamos a ayudarte a encontrar la propiedad perfecta que se ajuste a tu estilo de vida. ¡Déjanos ser tu guía en esta emocionante búsqueda!</p>
 
   
@@ -473,5 +474,12 @@ export default {
   text-decoration: underline;
 }
 
+.capitulo {
+  color: #ffffff; /* Cambia este valor al color que desees */
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+  font-size: 80px;
+}
 
 </style>
