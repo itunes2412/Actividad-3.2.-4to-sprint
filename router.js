@@ -9,6 +9,7 @@ import Promocion from './components/Promoción.vue'
 import Contacto from './components/Contacto.vue'
 import Blog from './components/Blog.vue'
 import Registro from './components/Registro.vue'
+import TarjetaCasaa from './components/tarjetacasaa'
 
 
 
@@ -53,6 +54,11 @@ const routes = [
     path: '/registro',
     name: 'Registro',
     component: Registro
+  },
+  {
+    path: '/tarjetacasaa',
+    name: 'TarjetaCasaa',
+    component: TarjetaCasaa,
   },
   
   

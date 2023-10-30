@@ -3,6 +3,13 @@ import HomeView from '../views/HomeView.vue'
 import LoginForm from '../components/LoginForm.vue'
 import CorreoEnviado from '../components/CorreoEnviado.vue'
 import AvisoPrivacidad from '../components/AvisoPrivacidad.vue'
+import TarjetaCasa from '../components/TarjetaCasa.vue'
+import TarjetaCasaa from '../components/TarjetaCasaa.vue'
+import TarjetaCasaaa from '../components/TarjetaCasaaa.vue'
+import TarjetaCasaaaa from '../components/TarjetaCasaaaa.vue'
+import TarjetaCasaaaaa from '../components/TarjetaCasaaaaa.vue'
+import NosotrosSitio from '../components/NosotrosSitio.vue'
+import PropiedadesSitio from '../components/PopiedadesSitio.vue'
 
 
 
@@ -26,6 +33,41 @@ const routes = [
     path: '/avisoprivacidad',
     name: 'AvisoPrivacidad',
     component: AvisoPrivacidad,
+  },
+  {
+    path: '/tarjetacasa',
+    name: 'TarjetaCasa',
+    component: TarjetaCasa,
+  },
+  {
+    path: '/tarjetacasaa',
+    name: 'TarjetaCasaa',
+    component: TarjetaCasaa,
+  },
+  {
+    path: '/tarjetacasaaa',
+    name: 'TarjetaCasaaa',
+    component: TarjetaCasaaa,
+  },
+  {
+    path: '/tarjetacasaaaa',
+    name: 'TarjetaCasaaaa',
+    component: TarjetaCasaaaa,
+  },
+  {
+    path: '/tarjetacasaaaaa',
+    name: 'TarjetaCasaaaaa',
+    component: TarjetaCasaaaaa,
+  },
+  {
+    path: '/nosotrossitio',
+    name: 'NosotrosSitio',
+    component: NosotrosSitio,
+  },
+  {
+    path: '/propiedadessitio',
+    name: 'PropiedadesSitio',
+    component: PropiedadesSitio,
   },
   
   

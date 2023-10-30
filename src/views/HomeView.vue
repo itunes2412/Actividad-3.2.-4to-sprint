@@ -5,7 +5,14 @@
       <div class="logo" @click="toggleLogoSize">
         <img :style="{ 'transform': `scale(${logoScale})` }" src="/logo.png" alt="Logo" @click.stop="handleClick"/>
       </div>
-      
+
+      <ul class="menu center-menu">
+        <li><router-link to="/">Inicio</router-link></li>
+        <li><router-link to="/nosotrossitio">Nosotros</router-link></li>
+        <li><router-link to="/propiedadessitio">Propiedades</router-link></li>
+        <li><router-link to="/valoressitio">Valores</router-link></li>
+        <li><router-link to="/blog">Blog</router-link></li>
+      </ul>
 
       <div>
         <router-link to="/loginform">
@@ -14,13 +21,8 @@
       </div>
       
     </nav>
-
-    <!-- Contenido de la Página -->
-    <main class="content">
-      <!-- Sección de Inicio -->
-      <!-- Sección de Inicio -->
-
-      <!-- Sección de Inicio -->
+    
+  
 <section class="inicio-section">
   <!-- Banner -->
   
@@ -55,8 +57,8 @@
       <a href="/ruta-de-tu-archivo-vue2">
         <img src="/casa2.jpg" alt="Imagen 2" style="width: 300px; height: 200px;" />
       </a>
-      <h2>Proyectos Innovadores</h2>
-      <p>Descubre nuestros proyectos de desarrollo inmobiliario que ofrecen comodidad y estilo de vida moderno.</p>
+      <h2>¿Quieres irte de vacaciones?</h2>
+      <p>Descubre destinos increíbles y crea recuerdos inolvidables con nuestras ofertas exclusivas para tu escapada soñada.</p>
     </div>
   
     <!-- Columna 3 -->
@@ -73,20 +75,7 @@
 </section>
 
 
-<br>
-<br>
-<br>
-<div class="section">
-  <div class="banner">
-    <img src="/banner2.png" alt="banner" style="width: 90%; height: 35%;" />
-      </div>
-        <div class="nosotros">
-          <h1>Nosotros</h1>
-  <p>En <b>House Finder</b>, nos dedicamos apasionadamente a ayudarte a encontrar el hogar perfecto. Nuestra misión es facilitar el proceso de búsqueda de casas y renta de departamentos, brindando soluciones integrales y personalizadas para satisfacer tus necesidades específicas.</p>
-  <p>Con una amplia red de propiedades verificadas y una sólida comprensión del mercado inmobiliario, estamos comprometidos a hacer que tu experiencia de búsqueda sea sin complicaciones y gratificante. Nuestro equipo de expertos en bienes raíces está aquí para asesorarte en cada paso del camino y garantizar que encuentres un lugar que puedas llamar hogar con confianza y comodidad.</p>
-  <p>Ya sea que estés buscando una casa familiar espaciosa, un acogedor apartamento o una propiedad de inversión, estamos aquí para convertir tus sueños en realidad. Con House Finder, descubrir tu nuevo hogar es más que una transacción: es una experiencia emocionante y gratificante.</p>
-</div>
-</div>
+
 
 <div class="section1">
   <div class="row1">
@@ -111,78 +100,7 @@
   </div>
 </div>
 
-<div class="promos">
-  <div class="banner">
-    <img src="/banner3.png" alt="banner" style="width: 90%; height: 35%; padding-bottom: 5%;" />
-  </div>
-  <h1 class="capitulo">Lo + reciente</h1>
-  
-  <p class="lomasplus">En House Finder, te presentamos las últimas publicaciones más relevantes y populares del momento. Nuestro compromiso es brindarte acceso a las propiedades más destacadas y buscadas en el mercado actual. Con un enfoque centrado en la excelencia, la integridad y la plena satisfacción del cliente, nos dedicamos a ayudarte a encontrar la propiedad perfecta que se ajuste a tu estilo de vida. ¡Déjanos ser tu guía en esta emocionante búsqueda!</p>
 
-  
-  <div class="card">
-      <img src="casa7.jpg" alt="Casa en Jalisco" onclick="window.location.href='link_a_tu_página'">
-      <h2>Casa en Jalisco</h2>
-      <p class="price"><b>$20,000 por mes</b></p>
-      <p>Amplia casa en un vecindario tranquilo. 3 dormitorios, 2 baños.</p>
-  </div>
-
-  <div class="card">
-      <img src="casa5.jpg" alt="Casa en Guanajuato" onclick="window.location.href='link_a_tu_página'">
-      <h2>Casa en Guanajuato</h2>
-      <p class="price"><b>$20,000 por mes</b></p>
-      <p>Acogedora casa con jardín y terraza. 2 dormitorios, 1 baño.</p>
-  </div>
-
-  <div class="card">
-      <img src="casa6.jpg" alt="Casa en Quintana Roo" onclick="window.location.href='link_a_tu_página'">
-      <h2>Casa en Quintana Roo</h2>
-      <p class="price"><b>$20,000 por mes</b></p>
-      <p>Moderna casa cerca de la playa. 4 dormitorios, 3 baños.</p>
-  </div>
-
-  <div class="card">
-      <img src="depa1.jpeg" alt="Departamento en Veracruz" onclick="window.location.href='link_a_tu_página'">
-      <h2>Departamento en Veracruz</h2>
-      <p class="price"><b>$20,000 por mes</b></p>
-      <p>Luminoso departamento en el centro de la ciudad. 1 dormitorio, 1 baño.</p>
-  </div>
-
-  <div class="card">
-      <img src="depa2.jpg" alt="Departamento en Querétaro" onclick="window.location.href='link_a_tu_página'">
-      <h2>Departamento en Querétaro</h2>
-      <p class="price"><b>$20,000 por mes</b></p>
-      <p>Moderno departamento con excelentes vistas. 2 dormitorios, 1 baño.</p>
-  </div>
-
-  <!-- Añade más elementos aquí -->
-
-  <div class="card">
-      <img src="casa4.jpg" alt="Casa en Nuevo León" onclick="window.location.href='link_a_tu_página'">
-      <h2>Casa en Nuevo León</h2>
-      <p class="price"><b>$20,000 por mes</b></p>
-      <p>Encantadora casa con patio trasero amplio. 3 dormitorios, 2 baños.</p>
-  </div>
-
-  <div class="card">
-      <img src="casa5.jpg" alt="Casa en Puebla" onclick="window.location.href='link_a_tu_página'">
-      <h2>Casa en Puebla</h2>
-      <p class="price"><b>$20,000 por mes</b></p>
-      <p>Casa tradicional con diseño moderno. 4 dormitorios, 2 baños.</p>
-  </div>
-
-  <div class="card">
-      <img src="depa3.png" alt="Departamento en Yucatán" onclick="window.location.href='link_a_tu_página'">
-      <h2>Departamento en Yucatán</h2>
-      <p class="price"><b>$20,000 por mes</b></p>
-      <p>Departamento con vista al mar. 3 dormitorios, 2 baños.</p>
-  </div>
-</div>
-
-
-      <!-- Resto del contenido de la página -->
-      <!-- Puedes agregar más secciones y contenido aquí -->
-    </main>
 
     <!-- Footer -->
     <!-- Footer -->
@@ -213,12 +131,38 @@ export default {
       // Cambia la escala del logo al 150% cuando se hace clic
       this.logoScale = this.logoScale === 1 ? 1.5 : 1;
     },
+    redirectToTarjetaCasa() {
+      this.$router.push('/tarjetacasa');
+    },
+    redirectToTarjetaCasaa() {
+      this.$router.push('/tarjetacasaa'); // Asegúrate de que el nombre de la ruta sea correcto
+    },
+    redirectToTarjetaCasaaa() {
+      this.$router.push('/tarjetacasaaa'); // Asegúrate de que el nombre de la ruta sea correcto
+    },
+    redirectToTarjetaCasaaaa() {
+      this.$router.push('/tarjetacasaaaa'); // Asegúrate de que el nombre de la ruta sea correcto
+    },
+    redirectToTarjetaCasaaaaa() {
+      this.$router.push('/tarjetacasaaaaa'); // Asegúrate de que el nombre de la ruta sea correcto
+    },
   },
 };
 </script>
 
-<style scoped>
 
+
+
+
+
+
+
+<style scoped>
+.menu li a {
+  text-decoration: none;
+  color: #495057; /* Cambia el color del texto según tus preferencias */
+  font-weight: bold;
+}
 
 /* Estilos para el esqueleto de la página */
 .app {
@@ -248,7 +192,33 @@ export default {
 .menu {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 40px;
+  margin-left: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #1f1f1f; /* Texto blanco */
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #ba8c26; /* Dorado en hover */
+}
+
+/* Estilos para el logo */
+.logo img {
+  max-height: 150px; /* Tamaño inicial del logo */
+  transition: max-height 0.3s ease; /* Transición suave de tamaño */
+  cursor: pointer; /* Cambia el cursor al hacer clic */
+  padding-left: 50px;
+}
+
+/* Estilos para el menú */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
   margin-left: 10px;
 }
 
@@ -270,6 +240,7 @@ export default {
     color: #ffffff; /* Cambia este valor al color que desees */
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 5%;
     text-align: justify;
     font-size: larger;
 }
