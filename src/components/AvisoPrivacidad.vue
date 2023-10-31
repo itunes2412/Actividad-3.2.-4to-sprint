@@ -31,17 +31,20 @@
           Si tienes alguna pregunta o inquietud sobre nuestra política de privacidad o el manejo de tus datos, no dudes en contactarnos a través de los detalles de contacto proporcionados en nuestro sitio web.
         </p>
       </div>
-      
     </div>
+    
     <footer class="footer">
-        <table>
-          <!-- Información del footer -->
-          <!-- Ajusta los estilos según tus necesidades -->
-        </table>
-        <p style="font-size: 12px; color: #ba8c26;">
-          &copy; 2023 House Finder. Todos los derechos reservados.
-        </p>
-      </footer>
+      <table>
+        <!-- Información del footer -->
+        <!-- Ajusta los estilos según tus necesidades -->
+      </table>
+      <p style="font-size: 12px; color: #ba8c26;">
+        &copy; 2023 House Finder. Todos los derechos reservados.
+      </p>
+    </footer>
+    <p class="privacy-notice">
+      <router-link to="/avisoprivacidad">Aviso de Privacidad</router-link>
+    </p>
     
   </template>
   

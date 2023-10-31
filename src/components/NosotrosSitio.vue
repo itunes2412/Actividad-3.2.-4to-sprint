@@ -5,14 +5,13 @@
         <div class="logo" @click="toggleLogoSize">
           <img :style="{ 'transform': `scale(${logoScale})` }" src="/logo.png" alt="Logo" @click.stop="handleClick"/>
         </div>
-  
         <ul class="menu center-menu">
-            <li><router-link to="/">Inicio</router-link></li>
-            <li><router-link to="/nosotrossitio">Nosotros</router-link></li>
-            <li><router-link to="/propiedadessitio">Propiedades</router-link></li>
-            <li><router-link to="/valoressitio">Valores</router-link></li>
-            <li><router-link to="/blog">Blog</router-link></li>
-          </ul>
+          <li><router-link to="/">Inicio</router-link></li>
+          <li><router-link to="/nosotrossitio">Nosotros</router-link></li>
+          <li><router-link to="/propiedadessitio">Propiedades</router-link></li>
+          <li><router-link to="/visionmision">Vision y Mision</router-link></li>
+          <li><router-link to="/ubicacionsitio">Ubicacion</router-link></li>
+        </ul>
   
         <div>
           <router-link to="/loginform">
@@ -44,10 +43,13 @@
       <!-- Footer -->
       <!-- Footer -->
       <footer class="footer">
-       
-        
-        
-        <p style="font-size: 12px;">&copy; 2023 House Finder. Todos los derechos reservados.</p>
+        <table>
+          <!-- Información del footer -->
+          <!-- Ajusta los estilos según tus necesidades -->
+        </table>
+        <p style="font-size: 12px; color: #ba8c26;">
+          &copy; 2023 House Finder. Todos los derechos reservados.
+        </p>
       </footer>
       <p class="privacy-notice">
         <router-link to="/avisoprivacidad">Aviso de Privacidad</router-link>

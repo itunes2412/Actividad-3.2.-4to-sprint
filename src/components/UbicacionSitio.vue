@@ -1,6 +1,5 @@
 <template>
   <div class="app">
-    <!-- Menú de Navegación -->
     <nav class="navbar">
       <div class="logo" @click="toggleLogoSize">
         <img :style="{ 'transform': `scale(${logoScale})` }" src="/logo.png" alt="Logo" @click.stop="handleClick"/>
@@ -19,70 +18,29 @@
           <button class="login-button"><b>Contacto</b></button>
         </router-link>
       </div>
-      
     </nav>
+
+    <div class="section">
+      <div class="banner">
+        <img src="/banner2.png" alt="banner" style="width: 90%; height: 35%;" />
+      </div>
+
+      <div class="map-container">
+        <div class="google-map" id="googleMap">
+          <!-- Aquí se cargaría la imagen en lugar del mapa de Google -->
+          <img src="url_de_la_imagen" style="width: 100%; height: 500px; object-fit: cover;" alt="Mapa de ubicación">
+        </div>
+        <div class="address-container">
+          <h2>Dirección:</h2>
+          <p>Tu dirección aquí</p>
+          <p>City, Estado, Código Postal</p>
+        </div>
+      </div>
+      
     
-  
-<section class="inicio-section">
-  <!-- Banner -->
-  
-  <div class="banner">
-    <img src="/banner.png" alt="banner" style="width: 90%; height: 35%;" />
-  </div>
-  
-
-  <!-- Texto de Inicio -->
-  <div class="inicio-text">
-    <h1>Bienvenidos a HOUSE FINDER</h1>
-    <p>Somos tu mejor opción para encontrar la casa o departamento de tus sueños. En <b>HOUSE FINDER</b>, nos comprometemos a proporcionarte las mejores opciones de vivienda, ya sea que estés buscando tu primer hogar, una propiedad de inversión o el lugar perfecto para tu familia. Navega a través de nuestras propiedades, conoce nuestros proyectos y descubre oportunidades de promoción exclusivas. ¡Estamos aquí para ayudarte a encontrar el lugar que siempre has deseado!</p>
-  </div>
-
-  <br>
-  <br>
-  <br>
-  <br>
-
-  <div class="row">
-    <!-- Columna 1 -->
-    <div class="column">
-      <a href="/ruta-de-tu-archivo-vue1">
-        <img src="casa1.jpg" alt="Imagen 1" style="width: 300px; height: 200px;"/>
-      </a>
-      <h2>Encuentra tu Hogar Ideal</h2>
-      <p>Explora una amplia gama de propiedades en las mejores ubicaciones. Tenemos opciones para todos los gustos y presupuestos.</p>
+      
     </div>
-  
-    <!-- Columna 2 -->
-    <div class="column">
-      <a href="/ruta-de-tu-archivo-vue2">
-        <img src="/casa2.jpg" alt="Imagen 2" style="width: 300px; height: 200px;" />
-      </a>
-      <h2>¿Quieres irte de vacaciones?</h2>
-      <p>Descubre destinos increíbles y crea recuerdos inolvidables con nuestras ofertas exclusivas para tu escapada soñada.</p>
-    </div>
-  
-    <!-- Columna 3 -->
-    <div class="column">
-      <a href="/ruta-de-tu-archivo-vue3">
-        <img src="casa3.jpg" alt="Imagen 3" style="width: 300px; height: 200px;" />
-      </a>
-      <h2>Promociones Exclusivas</h2>
-      <p>Aprovecha nuestras promociones especiales y descuentos en propiedades seleccionadas. ¡No te las pierdas!</p>
-    </div>
-  </div>
-  
 
-</section>
-
-
-
-
-
-
-
-
-    <!-- Footer -->
-    <!-- Footer -->
     <footer class="footer">
       <table>
         <!-- Información del footer -->
@@ -95,49 +53,21 @@
     <p class="privacy-notice">
       <router-link to="/avisoprivacidad">Aviso de Privacidad</router-link>
     </p>
-  
   </div>
+
 </template>
 
-
 <script>
-export default {
-  name: 'App',
-  data() {
-    return {
-      logoScale: 1, // Escala inicial del logo
-    };
-  },
-  methods: {
-    toggleLogoSize() {
-      // Cambia la escala del logo al 150% cuando se hace clic
-      this.logoScale = this.logoScale === 1 ? 1.5 : 1;
+  export default {
+    name: 'App',
+    data() {
+      return {
+        logoScale: 1, // Escala inicial del logo
+      };
     },
-    redirectToTarjetaCasa() {
-      this.$router.push('/tarjetacasa');
-    },
-    redirectToTarjetaCasaa() {
-      this.$router.push('/tarjetacasaa'); // Asegúrate de que el nombre de la ruta sea correcto
-    },
-    redirectToTarjetaCasaaa() {
-      this.$router.push('/tarjetacasaaa'); // Asegúrate de que el nombre de la ruta sea correcto
-    },
-    redirectToTarjetaCasaaaa() {
-      this.$router.push('/tarjetacasaaaa'); // Asegúrate de que el nombre de la ruta sea correcto
-    },
-    redirectToTarjetaCasaaaaa() {
-      this.$router.push('/tarjetacasaaaaa'); // Asegúrate de que el nombre de la ruta sea correcto
-    },
-  },
-};
-</script>
-
-
-
-
-
-
-
+    
+  };
+  </script>
 
 <style scoped>
 .menu li a {
@@ -160,32 +90,6 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: px 0;
-}
-
-/* Estilos para el logo */
-.logo img {
-  max-height: 150px; /* Tamaño inicial del logo */
-  transition: max-height 0.3s ease; /* Transición suave de tamaño */
-  cursor: pointer; /* Cambia el cursor al hacer clic */
-  padding-left: 50px;
-}
-
-/* Estilos para el menú */
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 40px;
-  margin-left: 10px;
-}
-
-.menu li a {
-  text-decoration: none;
-  color: #1f1f1f; /* Texto blanco */
-  transition: color 0.3s ease;
-}
-
-.menu li a:hover {
-  color: #ba8c26; /* Dorado en hover */
 }
 
 /* Estilos para el logo */
@@ -435,4 +339,33 @@ export default {
   font-size: 80px;
 }
 
+.map-container {
+  display: flex;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.google-map {
+  flex: 1;
+  height: 400px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.address-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.address-container h2 {
+  margin-bottom: 10px;
+}
 </style>

@@ -10,6 +10,8 @@ import TarjetaCasaaaa from '../components/TarjetaCasaaaa.vue'
 import TarjetaCasaaaaa from '../components/TarjetaCasaaaaa.vue'
 import NosotrosSitio from '../components/NosotrosSitio.vue'
 import PropiedadesSitio from '../components/PopiedadesSitio.vue'
+import VisionMision from '../components/VisionMision.vue'
+import UbicacionSitio from '../components/UbicacionSitio.vue'
 
 
 
@@ -69,6 +71,17 @@ const routes = [
     name: 'PropiedadesSitio',
     component: PropiedadesSitio,
   },
+  {
+    path: '/visionmision',
+    name: 'VisionMision',
+    component: VisionMision,
+  },
+  {
+    path: '/ubicacionsitio',
+    name: 'UbicacionSitio',
+    component: UbicacionSitio,
+  },
+  
   
   
   {

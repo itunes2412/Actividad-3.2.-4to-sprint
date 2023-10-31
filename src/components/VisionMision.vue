@@ -22,146 +22,30 @@
         
       </nav>
       
-      <div class="promos">
-        <div class="banner">
-          <img src="/banner3.png" alt="banner" style="width: 90%; height: 35%; padding-bottom: 5%;" />
+      <div class="section1">
+        <div class="row1">
+          <div class="column1">
+            <img src="/mision.jpg" alt="Misión">
+          </div>
+          <div class="column1">
+            <h1>Misión</h1>
+            <p>En <b>House Finder</b>, nuestra misión es proporcionar un servicio excepcional a nuestros clientes, brindándoles asesoramiento integral y soluciones personalizadas para sus necesidades de alquiler de casas y departamentos. Nos esforzamos por simplificar y hacer placentera la experiencia de encontrar un nuevo hogar.</p>
+            <p>Con un enfoque en la transparencia y la confiabilidad, trabajamos arduamente para construir relaciones duraderas con nuestros clientes, asegurándonos de que cada paso del proceso de alquiler esté respaldado por nuestra experiencia y conocimiento profundo del mercado inmobiliario.</p>
+          </div>
         </div>
-        <h1 class="capitulo">Lo + reciente</h1>
-        
-        <p class="lomasplus">En House Finder, te presentamos las últimas publicaciones más relevantes y populares del momento. Nuestro compromiso es brindarte acceso a las propiedades más destacadas y buscadas en el mercado actual. Con un enfoque centrado en la excelencia, la integridad y la plena satisfacción del cliente, nos dedicamos a ayudarte a encontrar la propiedad perfecta que se ajuste a tu estilo de vida. ¡Déjanos ser tu guía en esta emocionante búsqueda!</p>
-      
-        <div class="card">
-          <img src="casa7.jpg" alt="Casa en Jalisco" @click="redirectToTarjetaCasa">
-          <h2>Casa en Jalisco</h2>
-          <p class="price"><b>$28,000 Mensuales</b></p>
-          <p>Amplia casa en un vecindario tranquilo. 3 dormitorios, 2 baños.</p>
-      </div>
-      
-      <div class="card">
-        <img src="casa5.jpg" alt="Casa en Jalisco" @click="redirectToTarjetaCasaa">
-        <h2>Casa en CDMX</h2>
-        <p class="price"><b>$30,000 Mensuales</b></p>
-        <p>Amplia casa en un vecindario tranquilo. 3 dormitorios, 2 baños.</p>
-      </div>
-      
-       
-      
-      <div class="card">
-        <img src="casa6.jpg" alt="Casa en Quintana Roo"  @click="redirectToTarjetaCasaaa">
-        <h2>Casa en Quintana Roo</h2>
-        <p class="price"><b>$15,000 por mes</b></p>
-        <p>Moderna casa cerca de la playa. 4 dormitorios, 3 baños.</p>
-      </div>
-      
-      <div class="card">
-        <img src="depa1.jpeg" alt="Casa en Quintana Roo"  @click="redirectToTarjetaCasaaaa">
-        <h2>Departamento Zapopan</h2>
-        <p class="price"><b>$19,000 por mes</b></p>
-        <p>Departamento de lujo. 2 dormitorios, 2 baños.</p>
-      </div>
-      
-      <div class="card">
-        <img src="depa2.jpg" alt="Casa en Quintana Roo"  @click="redirectToTarjetaCasaaaaa">
-        <h2>Departamento Monterrey</h2>
-        <p class="price"><b>$19,000 por mes</b></p>
-        <p>Moderno departamento con excelentes vistas. 2 dormitorios, 1 baño.</p>
-      </div>
-      
-      
-        <div class="card">
-            <img src="casa4.jpg" alt="Casa en Nuevo León" onclick="window.location.href='link_a_tu_página'">
-            <h2>Casa en Nuevo León</h2>
-            <p class="price"><b>$20,000 por mes</b></p>
-            <p>Encantadora casa con patio trasero amplio. 3 dormitorios, 2 baños.</p>
-        </div>
-      
-        <div class="card">
-            <img src="casa7.jpg" alt="Casa en Puebla" onclick="window.location.href='link_a_tu_página'">
-            <h2>Casa en Puebla</h2>
-            <p class="price"><b>$20,000 por mes</b></p>
-            <p>Casa tradicional con diseño moderno. 4 dormitorios, 2 baños.</p>
-        </div>
-      
-        <div class="card">
-            <img src="depa3.png" alt="Departamento en Yucatán" onclick="window.location.href='link_a_tu_página'">
-            <h2>Departamento en Yucatán</h2>
-            <p class="price"><b>$20,000 por mes</b></p>
-            <p>Departamento con vista al mar. 3 dormitorios, 2 baños.</p>
+        <div class="row1">
+          <div class="column1">
+            <h1>Visión</h1>
+            <p>Nuestra visión es convertirnos en el recurso líder y más confiable para aquellos que buscan alquilar propiedades. Nos esforzamos por ofrecer una amplia gama de opciones de vivienda de calidad, facilitando a nuestros clientes la búsqueda de un hogar que se adapte a sus necesidades y estilo de vida.</p>
+            <p>Mediante la innovación constante y la adaptación a las últimas tendencias del mercado inmobiliario, aspiramos a establecer un estándar de excelencia en el servicio al cliente y a ser reconocidos como el socio preferido en la búsqueda de propiedades de alquiler confiables y asequibles.</p>
+          </div>
+          <div class="column1">
+            <img src="/vision.webp" alt="Visión">
+          </div>
         </div>
       </div>
-    </div>
-      
-    <!-- Promo2 -->
-
-    <div class="promos2">
-      <div class="banner">
-        <img src="/banner4.png" alt="banner" style="width: 90%; height: 35%; padding-bottom: 5%;" />
-      </div>
-      <h1 class="capitulo2">HOT RENT</h1>
-      
-      <p class="lomasplus2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-    
-      <div class="card">
-        <img src="hot.png" alt="Casa en Jalisco" @click="redirectTo">
-        <h2>HOT RENT</h2>
-        <p class="price"><b>$28,000 Mensuales</b></p>
-        <p>Amplia casa en un vecindario tranquilo. 3 dormitorios, 2 baños.</p>
-    </div>
-    
-    <div class="card">
-      <img src="hot.png" alt="Casa en Jalisco" @click="redirectTo">
-      <h2>HOT RENT</h2>
-      <p class="price"><b>$30,000 Mensuales</b></p>
-      <p>Amplia casa en un vecindario tranquilo. 3 dormitorios, 2 baños.</p>
-    </div>
-    
-     
-    
-    <div class="card">
-      <img src="hot.png" alt="Casa en Quintana Roo"  @click="redirectTo">
-      <h2>HOT RENT</h2>
-      <p class="price"><b>$15,000 por mes</b></p>
-      <p>Moderna casa cerca de la playa. 4 dormitorios, 3 baños.</p>
-    </div>
-    
-    <div class="card">
-      <img src="hot.png" alt="Casa en Quintana Roo"  @click="redirectTo">
-      <h2>HOT RENT</h2>
-      <p class="price"><b>$19,000 por mes</b></p>
-      <p>Departamento de lujo. 2 dormitorios, 2 baños.</p>
-    </div>
-    
-    <div class="card">
-      <img src="hot.png" alt="Casa en Quintana Roo"  @click="redirectTo">
-      <h2>HOT RENT</h2>
-      <p class="price"><b>$19,000 por mes</b></p>
-      <p>Moderno departamento con excelentes vistas. 2 dormitorios, 1 baño.</p>
-    </div>
-    
-    
-      <div class="card">
-          <img src="hot.png" alt="Casa en Nuevo León" @click="redirectTo">
-          <h2>HOT RENT</h2>
-          <p class="price"><b>$20,000 por mes</b></p>
-          <p>Encantadora casa con patio trasero amplio. 3 dormitorios, 2 baños.</p>
-      </div>
-    
-      <div class="card">
-          <img src="hot.png" alt="Casa en Puebla" @click="redirectTo">
-          <h2>HOT RENT</h2>
-          <p class="price"><b>$20,000 por mes</b></p>
-          <p>Casa tradicional con diseño moderno. 4 dormitorios, 2 baños.</p>
-      </div>
-    
-      <div class="card">
-          <img src="hot.png" alt="Departamento en Yucatán" @click="redirectTo">
-          <h2>HOT RENT</h2>
-          <p class="price"><b>$20,000 por mes</b></p>
-          <p>Departamento con vista al mar. 3 dormitorios, 2 baños.</p>
-      </div>
-    </div>
+</div>
   
-      
   
   
   
@@ -285,17 +169,7 @@
       margin-bottom: 5%;
       text-align: justify;
       font-size: larger;
-    
   }
-
-  .lomasplus2 {
-    color: #000000; /* Cambia este valor al color que desees */
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 5%;
-    text-align: justify;
-    font-size: larger;
-}
   
   /* Estilos para el botón de inicio de sesión */
   .login-button {
@@ -357,44 +231,6 @@
     background-color: #252525; /* Color de fondo deseado */
     padding: 20px; /* Ajusta el relleno según sea necesario */
   }
-
-
-
-  .promos2 {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .promos2 .card {
-    flex: 1 1 300px;
-    margin: 10px;
-    text-align: center;
-  }
-  
-  .promos2 .card img {
-    width: 100%;
-    max-width: 300px;
-    height: 200px;
-    cursor: pointer;
-  }
-  
-  .promos2 .card h2 {
-    color: #ff0000;
-  }
-  
-  .promos2 .card p {
-    color: rgb(0, 0, 0);
-  }
-  
-  
-  .promos2  {
-    
-    background-color: #ffffff; /* Color de fondo deseado */
-    padding: 20px; /* Ajusta el relleno según sea necesario */
-  }
   
   /* Estilos para el texto de inicio */
   .inicio-text {
@@ -422,13 +258,14 @@
   
   .column1 {
     flex: 1;
-    padding: 20px;
+    padding: 30px;
     text-align: justify;
   }
   
   .column1 img {
-    width: 100%;
-    max-width: 500px;
+   
+    max-width: 400px;
+    height: 200px;
     height: auto;
   }
   
@@ -537,14 +374,6 @@
   
   .capitulo {
     color: #ffffff; /* Cambia este valor al color que desees */
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: justify;
-    font-size: 80px;
-  }
-
-  .capitulo2 {
-    color: #ff0000; /* Cambia este valor al color que desees */
     margin-left: 20%;
     margin-right: 20%;
     text-align: justify;
