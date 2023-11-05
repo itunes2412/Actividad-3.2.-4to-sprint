@@ -40,21 +40,31 @@
   
   
   
-      <!-- Footer -->
-      <!-- Footer -->
-      <footer class="footer">
-        <table>
+<footer class="footer">
+  <div style="text-align: center;">
+      <table>
           <!-- Información del footer -->
           <!-- Ajusta los estilos según tus necesidades -->
-        </table>
-        <p style="font-size: 12px; color: #ba8c26;">
+      </table>
+  </div>
+  <div style="text-align: center;">
+      <div class="footer-social-icons">
+          <a href="https://www.facebook.com/"><img src="/facebook.png" alt="Facebook"></a>
+          <a href="https://www.whatsapp.com/"><img src="whatsapp.png" alt="Whatsapp"></a>
+          <a href="https://www.instagram.com/"><img src="/instagram.png" alt="Instagram"></a>
+      </div>
+  </div>
+  <div style="text-align: center;">
+      <p style="font-size: 12px; color: #ba8c26;">
           &copy; 2023 House Finder. Todos los derechos reservados.
-        </p>
-      </footer>
-      <p class="privacy-notice">
-        <router-link to="/avisoprivacidad">Aviso de Privacidad</router-link>
       </p>
-    
+  </div>
+  <div style="text-align: center;">
+      <p class="privacy-notice">
+          <router-link to="/avisoprivacidad">Aviso de Privacidad</router-link>
+      </p>
+  </div>
+</footer>
  
   </template>
   
@@ -119,6 +129,7 @@
     justify-content: space-between;
     align-items: center;
     padding: px 0;
+    margin-top: -50px;
   }
   
   /* Estilos para el logo */
@@ -149,7 +160,8 @@
   
   .section  {
       background-color: #e3b653; /* Color de fondo deseado */
-      padding: 20px; /* Ajusta el relleno según sea necesario */
+      padding: 20px;
+      margin-bottom: 5%; /* Ajusta el relleno según sea necesario */
     }
     .lomasplus {
       color: #ffffff; /* Cambia este valor al color que desees */
@@ -366,6 +378,21 @@
     margin-right: 20%;
     text-align: justify;
     font-size: 80px;
+  }
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+.footer-social-icons a {
+    margin: 0 10px; /* Ajusta el margen horizontal según sea necesario */
+}
+
+.footer-social-icons img {
+    width: 30px; /* Ajusta el ancho según sea necesario */
+    height: 30px; /* Ajusta la altura según sea necesario */
   }
   
   </style>

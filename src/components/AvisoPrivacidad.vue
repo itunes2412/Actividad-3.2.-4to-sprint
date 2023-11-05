@@ -1,3 +1,7 @@
+Default (GPT-3.5)
+
+User
+este codigo abre la ventana a medias en lugar desde el principio 
 <template>
     <div class="privacy-container">
       <h1 class="privacy-header">Aviso de Privacidad</h1>
@@ -41,48 +45,47 @@
       <p style="font-size: 12px; color: #ba8c26;">
         &copy; 2023 House Finder. Todos los derechos reservados.
       </p>
+
+    
     </footer>
-    <p class="privacy-notice">
-      <router-link to="/avisoprivacidad">Aviso de Privacidad</router-link>
-    </p>
+  
     
   </template>
-  
-  
-  <script>
-  export default {
-    name: 'AvisoPrivacidad'
-  }
-  </script>
-  
-  <style scoped>
-  .privacy-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .privacy-header {
-    color: #caa24c;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .privacy-content {
-    line-height: 1.6;
-  }
-  h1{
-    color: #caa24c;
-  }
-  
-  h2 {
-    color: #333;
-    margin-top: 20px;
-  }
-  
-  p {
-    color: #555;
-  }
-  
-  </style>
-  
+
+<script>
+export default {
+  name: 'AvisoPrivacidad'
+};
+</script>
+
+<style scoped>
+.privacy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 5%;
+}
+
+.privacy-header {
+  color: #caa24c;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.privacy-content {
+  line-height: 1.6;
+}
+
+h1 {
+  color: #caa24c;
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+p {
+  color: #555;
+}
+</style>

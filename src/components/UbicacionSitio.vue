@@ -25,35 +25,62 @@
         <img src="/banner2.png" alt="banner" style="width: 90%; height: 35%;" />
       </div>
 
-      <div class="map-container">
-        <div class="google-map" id="googleMap">
-          <!-- Aquí se cargaría la imagen en lugar del mapa de Google -->
-          <img src="url_de_la_imagen" style="width: 100%; height: 500px; object-fit: cover;" alt="Mapa de ubicación">
+      <div class="section">
+        <div class="map-container" style="padding: 20px;">
+          <div class="google-map" id="googleMap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14932.357638134385!2d-103.40371565490982!3d20.66594117168557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae787f411b3f%3A0xf31f350cc77d551e!2sEdificio%20Loma%20Chapalita!5e0!3m2!1sen!2smx!4v1698990119010!5m2!1sen!2smx" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          
+          <div class="address-container">
+            <h1>Dirección y Teléfono:</h1>
+            <p>Av. Adolfo López Mateos Sur 1996</p>
+            <p>Chapalita Sur, 44500</p>
+            <p>Guadalajara, Jal.</p>
+            <p>Teléfono: 555-123-4567</p> <!-- Puedes reemplazar "555-123-4567" con el número de teléfono que desees -->
+          </div>
+          
         </div>
-        <div class="address-container">
-          <h2>Dirección:</h2>
-          <p>Tu dirección aquí</p>
-          <p>City, Estado, Código Postal</p>
+          
+      
+        <!-- Resto del contenido de la sección -->
+        <div>
+          <!-- Aquí va el resto de tu contenido -->
         </div>
       </div>
+      
       
     
       
     </div>
 
     <footer class="footer">
-      <table>
-        <!-- Información del footer -->
-        <!-- Ajusta los estilos según tus necesidades -->
-      </table>
-      <p style="font-size: 12px; color: #ba8c26;">
-        &copy; 2023 House Finder. Todos los derechos reservados.
-      </p>
-    </footer>
-    <p class="privacy-notice">
-      <router-link to="/avisoprivacidad">Aviso de Privacidad</router-link>
-    </p>
+      <div style="text-align: center;">
+          <table>
+              <!-- Información del footer -->
+              <!-- Ajusta los estilos según tus necesidades -->
+          </table>
+      </div>
+      <div style="text-align: center;">
+          <div class="footer-social-icons">
+              <a href="https://www.facebook.com/"><img src="/facebook.png" alt="Facebook"></a>
+              <a href="https://www.whatsapp.com/"><img src="whatsapp.png" alt="Whatsapp"></a>
+              <a href="https://www.instagram.com/"><img src="/instagram.png" alt="Instagram"></a>
+          </div>
+      </div>
+      <div style="text-align: center;">
+          <p style="font-size: 12px; color: #ba8c26;">
+              &copy; 2023 House Finder. Todos los derechos reservados.
+          </p>
+      </div>
+      <div style="text-align: center;">
+          <p class="privacy-notice">
+              <router-link to="/avisoprivacidad">Aviso de Privacidad</router-link>
+          </p>
+      </div>
+  </footer>
   </div>
+    
+   
 
 </template>
 
@@ -90,6 +117,7 @@
   justify-content: space-between;
   align-items: center;
   padding: px 0;
+  margin-top: -50px;
 }
 
 /* Estilos para el logo */
@@ -119,8 +147,9 @@
 }
 
 .section  {
-    background-color: #e3b653; /* Color de fondo deseado */
+    background-color: #ffffff; /* Color de fondo deseado */
     padding: 20px; /* Ajusta el relleno según sea necesario */
+    margin-bottom: 5%;
   }
   .lomasplus {
     color: #ffffff; /* Cambia este valor al color que desees */
@@ -368,4 +397,22 @@
 .address-container h2 {
   margin-bottom: 10px;
 }
+
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+.footer-social-icons a {
+  margin: 0 10px; /* Ajusta el margen horizontal según sea necesario */
+}
+
+.footer-social-icons img {
+  width: 30px; /* Ajusta el ancho según sea necesario */
+  height: 30px; /* Ajusta la altura según sea necesario */
+}
+
 </style>

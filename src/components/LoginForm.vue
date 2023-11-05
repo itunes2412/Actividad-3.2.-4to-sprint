@@ -80,6 +80,7 @@
         &copy; 2023 House Finder. Todos los derechos reservados.
       </p>
     </footer>
+   
   </div>
 </template>
 

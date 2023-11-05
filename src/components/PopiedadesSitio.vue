@@ -170,17 +170,31 @@
       <!-- Footer -->
       <!-- Footer -->
       <footer class="footer">
-        <table>
-          <!-- Información del footer -->
-          <!-- Ajusta los estilos según tus necesidades -->
-        </table>
-        <p style="font-size: 12px; color: #ba8c26;">
-          &copy; 2023 House Finder. Todos los derechos reservados.
-        </p>
-      </footer>
-      <p class="privacy-notice">
-        <router-link to="/avisoprivacidad">Aviso de Privacidad</router-link>
-      </p>
+        <div style="text-align: center;">
+            <table>
+                <!-- Información del footer -->
+                <!-- Ajusta los estilos según tus necesidades -->
+            </table>
+        </div>
+        <div style="text-align: center;">
+            <div class="footer-social-icons">
+                <a href="https://www.facebook.com/"><img src="/facebook.png" alt="Facebook"></a>
+                <a href="https://www.whatsapp.com/"><img src="whatsapp.png" alt="Whatsapp"></a>
+                <a href="https://www.instagram.com/"><img src="/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <p style="font-size: 12px; color: #ba8c26;">
+                &copy; 2023 House Finder. Todos los derechos reservados.
+            </p>
+        </div>
+        <div style="text-align: center;">
+            <p class="privacy-notice">
+                <router-link to="/avisoprivacidad">Aviso de Privacidad</router-link>
+            </p>
+        </div>
+    </footer>
+    
     
  
   </template>
@@ -246,6 +260,7 @@
     justify-content: space-between;
     align-items: center;
     padding: px 0;
+    margin-top: -50px;
   }
   
   /* Estilos para el logo */
@@ -366,6 +381,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 10%;
   }
   
   .promos2 .card {
@@ -549,6 +565,22 @@
     margin-right: 20%;
     text-align: justify;
     font-size: 80px;
+  }
+
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+.footer-social-icons a {
+    margin: 0 10px; /* Ajusta el margen horizontal según sea necesario */
+}
+
+.footer-social-icons img {
+    width: 30px; /* Ajusta el ancho según sea necesario */
+    height: 30px; /* Ajusta la altura según sea necesario */
   }
   
   </style>
