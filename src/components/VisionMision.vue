@@ -23,6 +23,7 @@
       </nav>
       
       <div class="section1">
+
         <div class="row1">
           <div class="column1">
             <img src="/mision.jpg" alt="Misión">
@@ -32,7 +33,9 @@
             <p>En <b>House Finder</b>, nuestra misión es proporcionar un servicio excepcional a nuestros clientes, brindándoles asesoramiento integral y soluciones personalizadas para sus necesidades de alquiler de casas y departamentos. Nos esforzamos por simplificar y hacer placentera la experiencia de encontrar un nuevo hogar.</p>
             <p>Con un enfoque en la transparencia y la confiabilidad, trabajamos arduamente para construir relaciones duraderas con nuestros clientes, asegurándonos de que cada paso del proceso de alquiler esté respaldado por nuestra experiencia y conocimiento profundo del mercado inmobiliario.</p>
           </div>
-        </div>
+        </div> <br><br>
+
+
         <div class="row1">
           <div class="column1">
             <h1>Visión</h1>
@@ -40,11 +43,35 @@
             <p>Mediante la innovación constante y la adaptación a las últimas tendencias del mercado inmobiliario, aspiramos a establecer un estándar de excelencia en el servicio al cliente y a ser reconocidos como el socio preferido en la búsqueda de propiedades de alquiler confiables y asequibles.</p>
           </div>
           <div class="column1">
-            <img src="/vision.webp" alt="Visión">
+            <img src="/vision.jpg" alt="Visión">
+          </div>
+        </div><br><br>
+        
+       <div class="row1">
+          <div class="column1">
+            <img src="/valores.jpg" alt="Valores">
+          </div>
+          <div class="column1">
+            <h1>Valores</h1>
+            <p> En <b>House Finder</b> nuestros valores fundamentales son la base de nuestra operación diaria: <br>
+
+              <b>Integridad:</b>  Actuar con honestidad y ética en todas nuestras interacciones, construyendo relaciones sólidas basadas en la confianza. <br>
+              
+              <b>Compromiso con el Cliente:</b> Colocar siempre las necesidades y expectativas del cliente en el centro de nuestras acciones, proporcionando un servicio que supere sus expectativas.
+              
+              <b>Innovación:</b> Abrazar la innovación y la mejora continua para ofrecer soluciones modernas y eficientes en el mercado inmobiliario. <br>
+              
+              <b>Colaboración:</b>  Fomentar un ambiente colaborativo, tanto internamente como con nuestros clientes y socios, para lograr resultados exitosos. <br>
+              
+              <b>Responsabilidad Social:</b> Contribuir positivamente a las comunidades en las que operamos, siendo social y ambientalmente responsables.</p>
           </div>
         </div>
       </div>
 </div>
+
+<br> <br> <br> <br>
+
+
   
   
   
@@ -262,7 +289,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 50px; /* Aumenté el espacio de relleno para mayor elegancia */
     margin-bottom: 5%;
   }
   
@@ -270,40 +297,64 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    gap: 20px; /* Espacio entre columnas */
     margin-bottom: 50px;
   }
   
   .column1 {
     flex: 1;
-    padding: 30px;
     text-align: justify;
   }
   
   .column1 img {
-   
-    max-width: 400px;
-    height: 200px;
+    width: 100%; /* Hace que la imagen ocupe el 100% del contenedor */
+    max-width: 450px;
     height: auto;
+    padding-left: 20px;/* Añadí bordes redondeados para un aspecto más moderno */
+  }
+  
+  /* Estilos para el texto de los valores */
+  .column1 h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .column1 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555; /* Color de texto más suave */
   }
   
   /* Estilos para la fila de columnas */
-  .row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 1200px; /* Ancho máximo del contenedor de filas */
-    margin: 0 auto;}
-  
-  /* Estilos para cada columna */
-  .column {
-    flex-basis: calc(33.33% - 20px); /* Ancho de cada columna */
-    margin-right: 20px; /* Espacio entre columnas */
+  .row1 {
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
-  /* Estilos para la última columna (para eliminar el margen derecho) */
-  .column:last-child {
-    margin-right: 0;
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 768px) {
+    .row1 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .column1 img {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Agregué un contenedor para centrar la sección */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Agregué estilos para separar visualmente la sección de valores */
+  .separator {
+    height: 2px;
+    width: 50px;
+    background-color: #caa24c; /* Color del botón de inicio de sesión */
+    margin: 20px 0;
   }
   
   

@@ -33,7 +33,8 @@
     <p>Ya sea que estés buscando una casa familiar espaciosa, un acogedor apartamento o una propiedad de inversión, estamos aquí para convertir tus sueños en realidad. Con House Finder, descubrir tu nuevo hogar es más que una transacción: es una experiencia emocionante y gratificante.</p>
   </div>
 </div>
-</div>
+</div> <br><br>
+
   
   
   

@@ -54,36 +54,37 @@
       </div>
       
       <div class="card">
-        <img src="depa1.jpeg" alt="Casa en Quintana Roo"  @click="redirectToTarjetaCasaaaa">
+        <img src="depa_1.jpeg" alt="Casa en Quintana Roo"  @click="redirectToTarjetaCasaaaa">
         <h2>Departamento Zapopan</h2>
         <p class="price"><b>$19,000 por mes</b></p>
         <p>Departamento de lujo. 2 dormitorios, 2 baños.</p>
       </div>
       
       <div class="card">
-        <img src="depa2.jpg" alt="Casa en Quintana Roo"  @click="redirectToTarjetaCasaaaaa">
+        <img src="depa_2.jpg" alt="Casa en Quintana Roo"  @click="redirectToTarjetaCasaaaaa">
         <h2>Departamento Monterrey</h2>
         <p class="price"><b>$19,000 por mes</b></p>
         <p>Moderno departamento con excelentes vistas. 2 dormitorios, 1 baño.</p>
       </div>
       
+      <div class="card">
+        <img src="casa4.jpg" alt="Casa en Quintana Roo"  @click="redirectToTarjetaCasaaaaa">
+        <h2>Casa en Leon Gto.</h2>
+        <p class="price"><b>$19,000 por mes</b></p>
+        <p>Moderno departamento con excelentes vistas. 2 dormitorios, 1 baño.</p>
+      </div>
+      
+       
       
         <div class="card">
-            <img src="casa4.jpg" alt="Casa en Nuevo León" onclick="window.location.href='link_a_tu_página'">
-            <h2>Casa en Nuevo León</h2>
-            <p class="price"><b>$20,000 por mes</b></p>
-            <p>Encantadora casa con patio trasero amplio. 3 dormitorios, 2 baños.</p>
-        </div>
-      
-        <div class="card">
-            <img src="casa7.jpg" alt="Casa en Puebla" onclick="window.location.href='link_a_tu_página'">
+            <img src="casa7.jpg" alt="Casa en Puebla" @click="redirectToTarjetaCasaaaaa">
             <h2>Casa en Puebla</h2>
             <p class="price"><b>$20,000 por mes</b></p>
             <p>Casa tradicional con diseño moderno. 4 dormitorios, 2 baños.</p>
         </div>
       
         <div class="card">
-            <img src="depa3.png" alt="Departamento en Yucatán" onclick="window.location.href='link_a_tu_página'">
+            <img src="depa_3.png" alt="Departamento en Yucatán" @click="redirectToTarjetaCasaaaaa">
             <h2>Departamento en Yucatán</h2>
             <p class="price"><b>$20,000 por mes</b></p>
             <p>Departamento con vista al mar. 3 dormitorios, 2 baños.</p>
@@ -99,73 +100,87 @@
       </div>
       <h1 class="capitulo2">HOT RENT</h1>
       
-      <p class="lomasplus2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-    
-      <div class="card">
-        <img src="hot.png" alt="Casa en Jalisco" @click="redirectTo">
-        <h2>HOT RENT</h2>
-        <p class="price"><b>$28,000 Mensuales</b></p>
-        <p>Amplia casa en un vecindario tranquilo. 3 dormitorios, 2 baños.</p>
-    </div>
-    
-    <div class="card">
-      <img src="hot.png" alt="Casa en Jalisco" @click="redirectTo">
-      <h2>HOT RENT</h2>
-      <p class="price"><b>$30,000 Mensuales</b></p>
-      <p>Amplia casa en un vecindario tranquilo. 3 dormitorios, 2 baños.</p>
-    </div>
-    
-     
-    
-    <div class="card">
-      <img src="hot.png" alt="Casa en Quintana Roo"  @click="redirectTo">
-      <h2>HOT RENT</h2>
-      <p class="price"><b>$15,000 por mes</b></p>
-      <p>Moderna casa cerca de la playa. 4 dormitorios, 3 baños.</p>
-    </div>
-    
-    <div class="card">
-      <img src="hot.png" alt="Casa en Quintana Roo"  @click="redirectTo">
-      <h2>HOT RENT</h2>
-      <p class="price"><b>$19,000 por mes</b></p>
-      <p>Departamento de lujo. 2 dormitorios, 2 baños.</p>
-    </div>
-    
-    <div class="card">
-      <img src="hot.png" alt="Casa en Quintana Roo"  @click="redirectTo">
-      <h2>HOT RENT</h2>
-      <p class="price"><b>$19,000 por mes</b></p>
-      <p>Moderno departamento con excelentes vistas. 2 dormitorios, 1 baño.</p>
-    </div>
-    
-    
-      <div class="card">
-          <img src="hot.png" alt="Casa en Nuevo León" @click="redirectTo">
-          <h2>HOT RENT</h2>
-          <p class="price"><b>$20,000 por mes</b></p>
-          <p>Encantadora casa con patio trasero amplio. 3 dormitorios, 2 baños.</p>
-      </div>
-    
-      <div class="card">
-          <img src="hot.png" alt="Casa en Puebla" @click="redirectTo">
-          <h2>HOT RENT</h2>
-          <p class="price"><b>$20,000 por mes</b></p>
-          <p>Casa tradicional con diseño moderno. 4 dormitorios, 2 baños.</p>
-      </div>
-    
-      <div class="card">
-          <img src="hot.png" alt="Departamento en Yucatán" @click="redirectTo">
-          <h2>HOT RENT</h2>
-          <p class="price"><b>$20,000 por mes</b></p>
-          <p>Departamento con vista al mar. 3 dormitorios, 2 baños.</p>
-      </div>
-    </div>
-  
       
-  
-  
-  
-  
+        
+
+
+    <div class="parrafos">
+      <h1>Descubre el Lujo con <b>House Finder</b></h1>
+        <h2>¿Qué hace que Hot Rent sea la elección perfecta para ti?</h2>
+        <p><strong>1. Exclusividad sin igual:</strong> Cada uno de nuestros departamentos en Hot Rent es único y excepcional.<br>
+        <strong>2. Comodidades de lujo:</strong> Desde gimnasios completamente equipados hasta impresionantes áreas de lounge y piscinas de ensueño.<br>
+        <strong>3. Diseño vanguardista:</strong> La arquitectura y el diseño de interiores de nuestros departamentos están cuidadosamente pensados.<br>
+        <strong>4. Ubicaciones privilegiadas:</strong> Nuestros departamentos de Hot Rent se encuentran en las ubicaciones más deseadas de la ciudad.</p>
+        <!-- Agrega más contenido según sea necesario -->
+      
+
+      
+        <h2>¿Cómo funciona Hot Rent en House Finder?</h2>
+        <p><strong>1. Exploración sin complicaciones:</strong> Navega por nuestra plataforma fácil de usar para descubrir los departamentos de lujo disponibles en modalidad Hot Rent.<br>
+        <strong>2. Reservas sin complicaciones:</strong> Una vez que encuentres el departamento que roba tu corazón, el proceso de reserva es rápido y sencillo.<br>
+        <strong>3. Servicio al cliente excepcional:</strong> En House Finder, nuestro compromiso va más allá de ofrecer departamentos de lujo. Estamos aquí para brindarte un servicio al cliente excepcional.</p>
+        <!-- Agrega más contenido según sea necesario -->
+      </div>
+
+  <div class="promos2">
+
+      <div class="card" @click="redirectToLoginForm">
+        <img src="depa1.jpg" alt="Casa en Jalisco">
+        <h2>Guadalajara</h2>
+        <p class="price"><b>$25,000 Mensuales</b></p>
+        <p>Amplio departamento en el corazón de Guadalajara. 2 recámaras, 2 baños. Disfruta de la vida urbana con comodidades modernas.</p>
+    </div>
+
+    <div class="card" @click="redirectToLoginForm">
+        <img src="depa2.jpg" alt="Apartamento en CDMX">
+        <h2>Ciudad de México</h2>
+        <p class="price"><b>$28,500 Mensuales</b></p>
+        <p>Elegante apartamento en la CDMX, con 3 dormitorios y 2 baños. Diseño contemporáneo y acceso rápido a las principales atracciones de la ciudad. Vive con estilo en la metrópoli.</p>
+    </div>
+
+    <div class="card" @click="redirectToLoginForm">
+        <img src="depa3.jpg" alt="Departamento en Monterrey">
+        <h2>Monterrey</h2>
+        <p class="price"><b>$26,800 Mensuales</b></p>
+        <p>Departamento de lujo en Monterrey con 2 habitaciones y 2 baños. Ubicado en una zona exclusiva, ofrece vistas espectaculares de las montañas y todas las comodidades que necesitas.</p>
+    </div>
+
+    <div class="card" @click="redirectToLoginForm">
+        <img src="depa4.jpg" alt="Apartamento en Puebla">
+        <h2>Puebla</h2>
+        <p class="price"><b>$22,000 Mensuales</b></p>
+        <p>Acogedor apartamento en Puebla, con 1 recámara y 1 baño. Disfruta de la tranquilidad de la ciudad colonial y la cercanía a encantadores sitios históricos.</p>
+    </div>
+
+    <div class="card" @click="redirectToLoginForm">
+        <img src="depa5.jpg" alt="Departamento en Querétaro">
+        <h2>Querétaro</h2>
+        <p class="price"><b>$24,500 Mensuales</b></p>
+        <p>Moderno departamento en Querétaro con 2 recámaras y 1 baño. Ubicado en una zona residencial exclusiva, ofrece una experiencia de vida cómoda y lujosa.</p>
+    </div>
+
+    <div class="card" @click="redirectToLoginForm">
+        <img src="depa6.jpg" alt="Condominio en Cancún">
+        <h2>Cancún</h2>
+        <p class="price"><b>$30,000 Mensuales</b></p>
+        <p>Lujoso condominio en Cancún con 3 dormitorios y 2 baños. A pocos minutos de las playas de arena blanca, este espacio brinda la combinación perfecta de comodidad y estilo de vida costero.</p>
+    </div>
+
+    <div class="card" @click="redirectToLoginForm">
+        <img src="depa7.jpg" alt="Departamento en Tijuana">
+        <h2>Tijuana</h2>
+        <p class="price"><b>$23,800 Mensuales</b></p>
+        <p>Departamento contemporáneo en Tijuana con 2 habitaciones y 1 baño. Ideal para aquellos que buscan una mezcla vibrante de cultura y vida urbana.</p>
+    </div>
+
+    <div class="card" @click="redirectToLoginForm">
+        <img src="depa8.png" alt="Apartamento en Mérida">
+        <h2>Mérida</h2>
+        <p class="price"><b>$21,500 Mensuales</b></p>
+        <p>Encantador apartamento en Mérida con 1 recámara y 1 baño. Sumérgete en la belleza histórica de la ciudad mientras disfrutas de todas las comodidades modernas.</p>
+    </div>
+  </div>
+</div>
   
       <!-- Footer -->
       <!-- Footer -->
@@ -209,26 +224,30 @@
       };
     },
     methods: {
-      toggleLogoSize() {
-        // Cambia la escala del logo al 150% cuando se hace clic
-        this.logoScale = this.logoScale === 1 ? 1.5 : 1;
-      },
-      redirectToTarjetaCasa() {
-        this.$router.push('/tarjetacasa');
-      },
-      redirectToTarjetaCasaa() {
-        this.$router.push('/tarjetacasaa'); // Asegúrate de que el nombre de la ruta sea correcto
-      },
-      redirectToTarjetaCasaaa() {
-        this.$router.push('/tarjetacasaaa'); // Asegúrate de que el nombre de la ruta sea correcto
-      },
-      redirectToTarjetaCasaaaa() {
-        this.$router.push('/tarjetacasaaaa'); // Asegúrate de que el nombre de la ruta sea correcto
-      },
-      redirectToTarjetaCasaaaaa() {
-        this.$router.push('/tarjetacasaaaaa'); // Asegúrate de que el nombre de la ruta sea correcto
-      },
-    },
+  toggleLogoSize() {
+    // Cambia la escala del logo al 150% cuando se hace clic
+    this.logoScale = this.logoScale === 1 ? 1.5 : 1;
+  },
+  redirectToTarjetaCasa() {
+    this.$router.push('/tarjetacasa');
+  },
+  redirectToTarjetaCasaa() {
+    this.$router.push('/tarjetacasaa'); // Asegúrate de que el nombre de la ruta sea correcto
+  },
+  redirectToTarjetaCasaaa() {
+    this.$router.push('/tarjetacasaaa'); // Asegúrate de que el nombre de la ruta sea correcto
+  },
+  redirectToTarjetaCasaaaa() {
+    this.$router.push('/tarjetacasaaaa'); // Asegúrate de que el nombre de la ruta sea correcto
+  },
+  redirectToTarjetaCasaaaaa() {
+    this.$router.push('/tarjetacasaaaaa'); // Asegúrate de que el nombre de la ruta sea correcto
+  },
+  redirectToLoginForm() {
+    this.$router.push('/loginform'); // Asegúrate de que el nombre de la ruta sea correcto
+  },
+},
+
   };
   </script>
   
@@ -240,11 +259,28 @@
   
   
   <style scoped>
+
+  .parrafos {
+    text-align: justify;
+    max-width: 800px; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 0 auto; /* Centra el contenido en el contenedor */
+  }
+  
+  .parrafos h2 {
+    color: #ba8c26; /* Color de título, ajusta según tus preferencias */
+  }
+  
+  .parrafos p {
+    margin-bottom: 15px; /* Añade espacio entre párrafos para mejorar la legibilidad */
+    line-height: 1.5; /* Ajusta el interlineado según tus preferencias */
+  }
+  
   .menu li a {
     text-decoration: none;
     color: #495057; /* Cambia el color del texto según tus preferencias */
     font-weight: bold;
   }
+  
   
   /* Estilos para el esqueleto de la página */
   .app {
@@ -302,6 +338,7 @@
       font-size: larger;
     
   }
+  
 
   .lomasplus2 {
     color: #000000; /* Cambia este valor al color que desees */
@@ -369,7 +406,7 @@
   
   .promos  {
     
-    background-color: #252525; /* Color de fondo deseado */
+    background-color: #545454; /* Color de fondo deseado */
     padding: 20px; /* Ajusta el relleno según sea necesario */
   }
 

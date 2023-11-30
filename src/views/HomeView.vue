@@ -48,8 +48,8 @@
       <a href="/ruta-de-tu-archivo-vue1">
         <img src="casa1.jpg" alt="Imagen 1" style="width: 300px; height: 200px;"/>
       </a>
-      <h2>Encuentra tu Hogar Ideal</h2>
-      <p>Explora una amplia gama de propiedades en las mejores ubicaciones. Tenemos opciones para todos los gustos y presupuestos.</p>
+      <h2>Estados de Cuenta</h2>
+      <p>Tener un registro claro de tus transacciones es esencial. En House Finder, facilitamos el acceso a tus estados de cuenta. Si necesitas obtener información detallada sobre tus pagos y movimientos financieros, estamos aquí para ayudarte. ¡Contáctanos y te guiaremos en el proceso!"</p>
     </div>
   
     <!-- Columna 2 -->
@@ -57,8 +57,8 @@
       <a href="/ruta-de-tu-archivo-vue2">
         <img src="/casa2.jpg" alt="Imagen 2" style="width: 300px; height: 200px;" />
       </a>
-      <h2>¿Quieres irte de vacaciones?</h2>
-      <p>Descubre destinos increíbles y crea recuerdos inolvidables con nuestras ofertas exclusivas para tu escapada soñada.</p>
+      <h2>Pagos en linea</h2>
+      <p>Facilitamos tus pagos con nuestra plataforma segura en línea. Olvídate de los trámites complicados y realiza tus transacciones de manera rápida y sencilla. Con House Finder, el proceso de pago es tan fácil como encontrar tu hogar ideal. ¡Descubre la comodidad de pagar en línea con nosotros!</p>
     </div>
   
     <!-- Columna 3 -->
@@ -66,10 +66,11 @@
       <a href="/ruta-de-tu-archivo-vue3">
         <img src="casa3.jpg" alt="Imagen 3" style="width: 300px; height: 200px;" />
       </a>
-      <h2>Promociones Exclusivas</h2>
-      <p>Aprovecha nuestras promociones especiales y descuentos en propiedades seleccionadas. ¡No te las pierdas!</p>
+      <h2>Mantente en contacto</h2>
+      <p>En House Finder, valoramos la comunicación directa contigo. Mantente en contacto fácilmente a través de nuestras líneas telefónicas dedicadas. ¿Tienes preguntas, consultas o simplemente quieres charlar sobre tus necesidades de vivienda? Estamos aquí para escucharte. ¡Tu próximo hogar está a solo una llamada de distancia!</p>
     </div>
   </div>
+  <br>  <br>  <br>  <br>
   
 
 </section>
@@ -322,16 +323,17 @@ export default {
   margin-bottom: 50px;
 }
 
-.column1 {
-  flex: 1;
-  padding: 20px;
-  text-align: justify;
-}
 
-.column1 img {
+
+.column img {
   width: 100%;
   max-width: 500px;
   height: auto;
+  transition: transform 0.4s ease; /* Agrega una transición suave al efecto */
+}
+
+.column img:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al 110% en el hover */
 }
 
 /* Estilos para la fila de columnas */

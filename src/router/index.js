@@ -8,10 +8,12 @@ import TarjetaCasaa from '../components/TarjetaCasaa.vue'
 import TarjetaCasaaa from '../components/TarjetaCasaaa.vue'
 import TarjetaCasaaaa from '../components/TarjetaCasaaaa.vue'
 import TarjetaCasaaaaa from '../components/TarjetaCasaaaaa.vue'
+import TarjetaCasaaaaaa from '../components/TarjetaCasaaaaaa.vue'
 import NosotrosSitio from '../components/NosotrosSitio.vue'
 import PropiedadesSitio from '../components/PopiedadesSitio.vue'
 import VisionMision from '../components/VisionMision.vue'
 import UbicacionSitio from '../components/UbicacionSitio.vue'
+
 
 
 
@@ -61,6 +63,12 @@ const routes = [
     name: 'TarjetaCasaaaaa',
     component: TarjetaCasaaaaa,
   },
+  {
+    path: '/tarjetacasaaaaaa',
+    name: 'TarjetaCasaaaaaa',
+    component: TarjetaCasaaaaaa,
+  },
+  
   {
     path: '/nosotrossitio',
     name: 'NosotrosSitio',

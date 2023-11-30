@@ -10,13 +10,11 @@
           @click.stop
         />
       </div>
-      <ul class="menu">
+      <ul class="menu center-menu">
         <li><router-link to="/">Inicio</router-link></li>
-        <li><router-link to="/nosotros">Nosotros</router-link></li>
-        <li><router-link to="/propiedades">Propiedades</router-link></li>
-        <li><router-link to="/proyectos">Proyectos</router-link></li>
-        <li><router-link to="/promocion">Promociones</router-link></li>
-        <li><router-link to="/contacto">Contacto</router-link></li>
+        <li><router-link to="/nosotrossitio">Nosotros</router-link></li>
+        <li><router-link to="/propiedadessitio">Propiedades</router-link></li>
+        <li><router-link to="/visionmision">Vision y Mision</router-link></li>
         <li><router-link to="/blog">Blog</router-link></li>
       </ul>
       <div>
