@@ -296,8 +296,10 @@
     justify-content: space-between;
     align-items: center;
     padding: px 0;
+    height: 80px;
     margin-top: -50px;
   }
+  
   
   /* Estilos para el logo */
   .logo img {
