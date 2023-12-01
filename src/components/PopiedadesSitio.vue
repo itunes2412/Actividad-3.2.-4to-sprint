@@ -10,7 +10,7 @@
           <li><router-link to="/">Inicio</router-link></li>
           <li><router-link to="/nosotrossitio">Nosotros</router-link></li>
           <li><router-link to="/propiedadessitio">Propiedades</router-link></li>
-          <li><router-link to="/visionmision">Vision y Mision</router-link></li>
+          <li><router-link to="/visionmision">¿Quiénes Somos?</router-link></li>
           <li><router-link to="/ubicacionsitio">Ubicacion</router-link></li>
         </ul>
   
@@ -24,9 +24,9 @@
       
       <div class="promos">
         <div class="banner">
-          <img src="/banner3.png" alt="banner" style="width: 90%; height: 35%; padding-bottom: 5%;" />
+          <img src="/banner3.png" alt="banner" style="width: 100%; height: 30%; padding-bottom: 5%;" />
         </div>
-        <h1 class="capitulo">Lo + reciente</h1>
+        <h1 class="capitulo">Los + Rentados</h1>
         
         <p class="lomasplus">En House Finder, te presentamos las últimas publicaciones más relevantes y populares del momento. Nuestro compromiso es brindarte acceso a las propiedades más destacadas y buscadas en el mercado actual. Con un enfoque centrado en la excelencia, la integridad y la plena satisfacción del cliente, nos dedicamos a ayudarte a encontrar la propiedad perfecta que se ajuste a tu estilo de vida. ¡Déjanos ser tu guía en esta emocionante búsqueda!</p>
       
@@ -77,9 +77,9 @@
        
       
         <div class="card">
-            <img src="casa7.jpg" alt="Casa en Puebla" @click="redirectToTarjetaCasaaaaa">
-            <h2>Casa en Puebla</h2>
-            <p class="price"><b>$20,000 por mes</b></p>
+            <img src="casa8.jpg" alt="Casa en Puebla" @click="redirectToTarjetaCasaaaaa">
+            <h2>Casa en Los Cabos</h2>
+            <p class="price"><b>$35,000 por mes</b></p>
             <p>Casa tradicional con diseño moderno. 4 dormitorios, 2 baños.</p>
         </div>
       
@@ -251,13 +251,7 @@
   };
   </script>
   
-  
-  
-  
-  
-  
-  
-  
+
   <style scoped>
 
   .parrafos {
@@ -332,7 +326,7 @@
       padding: 20px; /* Ajusta el relleno según sea necesario */
     }
     .lomasplus {
-      color: #ffffff; /* Cambia este valor al color que desees */
+      color: #000000; /* Cambia este valor al color que desees */
       margin-left: 20%;
       margin-right: 20%;
       margin-bottom: 5%;
@@ -402,14 +396,14 @@
   }
   
   .promos .card p {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   
   
   .promos  {
     
-    background-color: #545454; /* Color de fondo deseado */
-    padding: 20px; /* Ajusta el relleno según sea necesario */
+    background-color: #dfdfdf; /* Color de fondo deseado */
+    padding: 0px; /* Ajusta el relleno según sea necesario */
   }
 
 
@@ -591,7 +585,7 @@
   }
   
   .capitulo {
-    color: #ffffff; /* Cambia este valor al color que desees */
+    color: #000000; /* Cambia este valor al color que desees */
     margin-left: 20%;
     margin-right: 20%;
     text-align: justify;

@@ -10,7 +10,7 @@
           <li><router-link to="/">Inicio</router-link></li>
           <li><router-link to="/nosotrossitio">Nosotros</router-link></li>
           <li><router-link to="/propiedadessitio">Propiedades</router-link></li>
-          <li><router-link to="/visionmision">Vision y Mision</router-link></li>
+          <li><router-link to="/visionmision">¿Quiénes Somos?</router-link></li>
           <li><router-link to="/ubicacionsitio">Ubicacion</router-link></li>
         </ul>
   
@@ -21,8 +21,11 @@
         </div>
         
       </nav>
-      
+      <div class="banner">
+        <img src="/banner5.png" alt="banner" style="width: 100%; height: 30%;" />
+      </div>
       <div class="section1">
+        
 
         <div class="row1">
           <div class="column1">
@@ -69,7 +72,35 @@
       </div>
 </div>
 
-<br> <br> <br> <br>
+<div class="column3">
+  <h1>La Historia de House Finder</h1>
+  <p class="parrafo">
+    Hace 5 años, en la ciudad de Guadalajara, un grupo de visionarios inmobiliarios se unió con la ambición de transformar la experiencia de búsqueda y adquisición de viviendas. Desde su inicio en 2018, House Finder, la plataforma que co-fundaron, ha experimentado un notable crecimiento.
+    <br />
+    <br />
+    La idea inicial surgió al observar las dificultades que enfrentaban las personas al buscar propiedades inmobiliarias en Guadalajara. Con el fuerte deseo de mejorar esta experiencia, el equipo de fundadores de House Finder se propuso crear una plataforma que no solo simplificara el proceso de búsqueda, sino que también se basara en sólidos valores fundamentales.
+    <br />
+    <br />
+    Desde el principio, la integridad se estableció como un pilar fundamental de la operación diaria de House Finder. Actuar con honestidad y ética en todas las interacciones se convirtió en la norma, construyendo relaciones sólidas basadas en la confianza con clientes, socios y la comunidad en general.
+    <br />
+    <br />
+    El compromiso con el cliente se convirtió en una prioridad máxima. House Finder se comprometió a colocar siempre las necesidades y expectativas del cliente en el centro de todas sus acciones, proporcionando un servicio que no solo cumpliera, sino que superara sus expectativas.
+    <br />
+    <br />
+    La innovación se convirtió en un impulsor clave para House Finder. La empresa abrazó la innovación y la mejora continua, buscando constantemente soluciones modernas y eficientes en el mercado inmobiliario. Este enfoque permitió a House Finder destacarse en un entorno competitivo en constante evolución.
+    <br />
+    <br />
+    La colaboración se convirtió en un valor central en la cultura de House Finder. Se fomentó un ambiente colaborativo tanto internamente como con clientes y socios, reconociendo que los resultados exitosos se logran mejor cuando se trabaja en conjunto.
+    <br />
+    <br />
+    Además, House Finder asumió la responsabilidad social como parte integral de su identidad. La empresa se comprometió a contribuir positivamente a las comunidades en las que operaba, adoptando prácticas comerciales social y ambientalmente responsables.
+    <br />
+    <br />
+    Con estos valores como guía, House Finder ha pasado su primer año dejando una huella positiva en el mercado inmobiliario de Guadalajara. La empresa sigue evolucionando y mirando hacia el futuro con el compromiso de continuar sirviendo a la comunidad y mejorando la experiencia de búsqueda de viviendas para todos. ¡Feliz primer aniversario, House Finder!
+  </p>
+</div>
+
+<br> <br> <br> <br><br> <br> <br> <br><br> <br> <br> <br>
 
 
   
@@ -331,6 +362,33 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .column3 {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 40px;
+  }
+  
+  .parrafo {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+   
+  }
+
+
+
+
+
   
   /* Estilos para dispositivos móviles */
   @media screen and (max-width: 768px) {

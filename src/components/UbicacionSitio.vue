@@ -9,7 +9,7 @@
         <li><router-link to="/">Inicio</router-link></li>
         <li><router-link to="/nosotrossitio">Nosotros</router-link></li>
         <li><router-link to="/propiedadessitio">Propiedades</router-link></li>
-        <li><router-link to="/visionmision">Vision y Mision</router-link></li>
+        <li><router-link to="/visionmision">¿Quiénes Somos?</router-link></li>
         <li><router-link to="/ubicacionsitio">Ubicacion</router-link></li>
       </ul>
 
@@ -22,7 +22,7 @@
 
     <div class="section">
       <div class="banner">
-        <img src="/banner2.png" alt="banner" style="width: 90%; height: 35%;" />
+        <img src="/ubicacion.png" alt="banner" style="width: 100%; height: 30%;" />
       </div>
 
       <div class="section">
@@ -47,7 +47,7 @@
           <!-- Aquí va el resto de tu contenido -->
         </div>
       </div>
-      
+      <br> <br> <br> <br>
       
     
       
@@ -149,7 +149,7 @@
 
 .section  {
     background-color: #ffffff; /* Color de fondo deseado */
-    padding: 20px; /* Ajusta el relleno según sea necesario */
+    padding: 0px; /* Ajusta el relleno según sea necesario */
     margin-bottom: 5%;
   }
   .lomasplus {
@@ -235,7 +235,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  
 }
 
 .row1 {
