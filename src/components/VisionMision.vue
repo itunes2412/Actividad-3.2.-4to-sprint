@@ -22,7 +22,7 @@
         
       </nav>
       <div class="banner">
-        <img src="/banner5.png" alt="banner" style="width: 100%; height: 30%;" />
+        <img src="/banner5.png" alt="banner" style="width: 90%; height: 30%;" />
       </div>
       <div class="section1">
         
@@ -73,7 +73,7 @@
 </div>
 
 <div class="column3">
-  <h1>La Historia de House Finder</h1>
+  <h1>Nuestra Historia</h1>
   <p class="parrafo">
     Hace 5 años, en la ciudad de Guadalajara, un grupo de visionarios inmobiliarios se unió con la ambición de transformar la experiencia de búsqueda y adquisición de viviendas. Desde su inicio en 2018, House Finder, la plataforma que co-fundaron, ha experimentado un notable crecimiento.
     <br />
@@ -512,7 +512,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+    margin-left: 0px; /* Ajusta el margen izquierdo según sea necesario */
 }
 
 .footer-social-icons a {

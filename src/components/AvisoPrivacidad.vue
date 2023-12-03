@@ -74,6 +74,7 @@ export default {
 
 .privacy-content {
   line-height: 1.6;
+  text-align: justify; /* Agregamos la justificación del texto */
 }
 
 h1 {

@@ -22,7 +22,7 @@
 
     <div class="section">
       <div class="banner">
-        <img src="/ubicacion.png" alt="banner" style="width: 100%; height: 30%;" />
+        <img src="/ubicacion.png" alt="banner" style="width: 90%; height: 30%;" />
       </div>
 
       <div class="section">
@@ -404,7 +404,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+  margin-left: 0px; /* Ajusta el margen izquierdo según sea necesario */
 }
 
 .footer-social-icons a {

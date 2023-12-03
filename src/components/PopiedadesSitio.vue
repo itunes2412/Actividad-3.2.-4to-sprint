@@ -24,9 +24,14 @@
       
       <div class="promos">
         <div class="banner">
-          <img src="/banner3.png" alt="banner" style="width: 100%; height: 30%; padding-bottom: 5%;" />
+          <img src="/banner3.png" alt="banner" style="width: 90%; height: 30%; padding-bottom: 5%;" />
         </div>
-        <h1 class="capitulo">Los + Rentados</h1>
+       
+        <div class="promos2">
+          <div class="banner">
+            <img src="/banner6.png" alt="banner" style="width: 50%; height: 35%;" />
+          </div>
+        </div>
         
         <p class="lomasplus">En House Finder, te presentamos las últimas publicaciones más relevantes y populares del momento. Nuestro compromiso es brindarte acceso a las propiedades más destacadas y buscadas en el mercado actual. Con un enfoque centrado en la excelencia, la integridad y la plena satisfacción del cliente, nos dedicamos a ayudarte a encontrar la propiedad perfecta que se ajuste a tu estilo de vida. ¡Déjanos ser tu guía en esta emocionante búsqueda!</p>
       
@@ -96,14 +101,10 @@
 
     <div class="promos2">
       <div class="banner">
-        <img src="/banner4.png" alt="banner" style="width: 90%; height: 35%; padding-bottom: 5%;" />
+        <img src="/banner4.png" alt="banner" style="width: 100%; height: 35%; padding-bottom: 3%;" />
       </div>
-      <h1 class="capitulo2">HOT RENT</h1>
       
-      
-        
-
-
+    
     <div class="parrafos">
       <h1>Descubre el Lujo con <b>House Finder</b></h1>
         <h2>¿Qué hace que Hot Rent sea la elección perfecta para ti?</h2>
@@ -402,19 +403,19 @@
   
   .promos  {
     
-    background-color: #dfdfdf; /* Color de fondo deseado */
+    background-color: #ffffff; /* Color de fondo deseado */
     padding: 0px; /* Ajusta el relleno según sea necesario */
   }
 
 
 
   .promos2 {
-    margin-top: 30px;
+    margin-top: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
   }
   
   .promos2 .card {
@@ -479,6 +480,7 @@
     width: 100%;
     max-width: 500px;
     height: auto;
+    transition: transform 0.4s ease;
   }
   
   /* Estilos para la fila de columnas */
@@ -499,6 +501,7 @@
   .column:last-child {
     margin-right: 0;
   }
+  
   
   
   .btn-learn {
@@ -604,7 +607,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+    margin-left: 0px; /* Ajusta el margen izquierdo según sea necesario */
 }
 
 .footer-social-icons a {

@@ -27,7 +27,7 @@
   <!-- Banner -->
   
   <div class="banner">
-    <img src="/banner.png" alt="banner" style="width: 100%; height: 30%;" />
+    <img src="/banner.png" alt="banner" style="width: 90%; height: 30%;" />
   </div>
   
 
@@ -140,12 +140,6 @@ export default {
 </script>
 
 
-
-
-
-
-
-
 <style scoped>
 .menu li a {
   text-decoration: none;
@@ -153,10 +147,6 @@ export default {
   font-weight: bold;
 }
 
-
-
-
-/* Estilos para el esqueleto de la página */
 .app {
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -325,7 +315,6 @@ export default {
 }
 
 
-
 .column img {
   width: 100%;
   max-width: 500px;
@@ -377,7 +366,7 @@ export default {
 }
 
 .inicio-text {
-  width: 50%; /* Ajusta el ancho del div al 50% del ancho de la ventana del navegador */
+  width: 60%; /* Ajusta el ancho del div al 50% del ancho de la ventana del navegador */
   font-size: 20px;
   margin-left: auto;
     margin-right: auto;
@@ -394,39 +383,7 @@ export default {
   padding-bottom: 50px; /* Agrega un padding de 20 píxeles en la parte inferior del div */
 }
 
-.footer {
-  width: 100%;
-  background-color: #f4f4f4;
-  padding: 20px 0;
-  text-align: center;
-}
 
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.footer-column {
-  flex: 1;
-  max-width: 300px;
-  margin: 10px;
-}
-
-.footer-column span {
-  font-size: 14px; /* Tamaño de fuente base para pantallas más grandes */
-}
-
-@media only screen and (max-width: 768px) {
-  .footer-column {
-    max-width: 100%;
-  }
-  
-  .footer-column span {
-    font-size: 12px; /* Ajuste de tamaño de fuente para pantallas más pequeñas */
-  }
-}
 
 .privacy-notice {
   text-align: center;
@@ -450,11 +407,34 @@ export default {
   text-align: justify;
   font-size: 80px;
 }
+.footer {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-column {
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.footer-column span {
+  font-size: 14px; /* Tamaño de fuente base para pantallas más grandes */
+}
 .footer-social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+  margin-left: 0px; /* Ajusta el margen izquierdo según sea necesario */
 }
 
 .footer-social-icons a {
@@ -463,7 +443,7 @@ export default {
 
 .footer-social-icons img {
   width: 30px; /* Ajusta el ancho según sea necesario */
-  height: 30px; /* Ajusta la altura según sea necesario */
+  height: px; /* Ajusta la altura según sea necesario */
 }
 
 </style>

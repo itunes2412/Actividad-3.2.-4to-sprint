@@ -24,17 +24,24 @@
       <div class="section">
 
         <div class="banner">
-    <img src="/banner2.png" alt="banner" style="width: 100%; height: 30%;" />
+    <img src="/banner2.png" alt="banner" style="width: 90%; height: 30%;" />
   </div>
             
-          <div class="nosotros">
-            <h1>Nosotros</h1>
-    <p>En <b>House Finder</b>, nos dedicamos apasionadamente a ayudarte a encontrar el hogar perfecto. Nuestra misión es facilitar el proceso de búsqueda de casas y renta de departamentos, brindando soluciones integrales y personalizadas para satisfacer tus necesidades específicas.</p>
-    <p>Con una amplia red de propiedades verificadas y una sólida comprensión del mercado inmobiliario, estamos comprometidos a hacer que tu experiencia de búsqueda sea sin complicaciones y gratificante. Nuestro equipo de expertos en bienes raíces está aquí para asesorarte en cada paso del camino y garantizar que encuentres un lugar que puedas llamar hogar con confianza y comodidad.</p>
-    <p>Ya sea que estés buscando una casa familiar espaciosa, un acogedor apartamento o una propiedad de inversión, estamos aquí para convertir tus sueños en realidad. Con House Finder, descubrir tu nuevo hogar es más que una transacción: es una experiencia emocionante y gratificante.</p>
+  <div class="nosotros-container">
+    <div class="nosotros-text">
+      <h1>Nosotros</h1>
+      <p>En <b>House Finder</b>, nos dedicamos apasionadamente a ayudarte a encontrar el hogar perfecto. Nuestra misión es facilitar el proceso de búsqueda de casas y renta de departamentos, brindando soluciones integrales y personalizadas para satisfacer tus necesidades específicas.</p>
+      <p>Con una amplia red de propiedades verificadas y una sólida comprensión del mercado inmobiliario, estamos comprometidos a hacer que tu experiencia de búsqueda sea sin complicaciones y gratificante. Nuestro equipo de expertos en bienes raíces está aquí para asesorarte en cada paso del camino y garantizar que encuentres un lugar que puedas llamar hogar con confianza y comodidad.</p>
+      <p>Ya sea que estés buscando una casa familiar espaciosa, un acogedor apartamento o una propiedad de inversión, estamos aquí para convertir tus sueños en realidad. Con House Finder, descubrir tu nuevo hogar es más que una transacción: es una experiencia emocionante y gratificante.</p>
+    </div>
+    <div class="nosotros-image">
+      <!-- Cambia 'ruta-de-tu-imagen' por la ruta correcta de tu imagen -->
+      <img src="smile.jpg" alt="Imagen Vertical">
+    </div>
   </div>
 </div>
-</div> <br><br>
+</div>
+<br><br> <br><br>
 
   
   
@@ -166,13 +173,40 @@
       padding: 0px;
       margin-bottom: 5%; /* Ajusta el relleno según sea necesario */
     }
-    .lomasplus {
-      color: #ffffff; /* Cambia este valor al color que desees */
-      margin-left: 20%;
-      margin-right: 20%;
-      margin-bottom: 5%;
-      text-align: justify;
-      font-size: larger;
+    .nosotros-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido hacia la izquierda */
+    align-items: center;
+    max-width: 950px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 20px auto 30px 200px; /* Ajusta los márgenes según sea necesario */
+    padding: 30px;
+  }
+  
+  .nosotros-text {
+    flex: 1;
+    margin-right: 20px; /* Ajusta el margen entre el texto y la imagen según sea necesario */
+    text-align: justify; /* Alinea el texto de manera justificada */
+    line-height: 1.6; /* Ajusta la altura de línea para mejorar la legibilidad */
+  }
+  
+  .nosotros-image {
+    flex-basis: 350px; /* Ajusta el ancho de la imagen según sea necesario */
+  }
+  
+  .nosotros-image img {
+    width: 90%; /* O ajusta el tamaño de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción original de la imagen */
+  }
+  
+
+  
+  /* Estilos adicionales para mejorar la apariencia del texto */
+  .nosotros-text h1 {
+    color: #333; /* Cambia el color del título según tus preferencias */
+  }
+  
+  .nosotros-text p {
+    margin-bottom: 15px; /* Ajusta el espacio entre párrafos según sea necesario */
   }
   
   /* Estilos para el botón de inicio de sesión */
@@ -317,14 +351,8 @@
     
   }
   
-  .nosotros {
-    width: 50%;
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: justify;
-    padding-bottom: 50px; /* Agrega un padding de 20 píxeles en la parte inferior del div */
-  }
+  
+  
   
   .footer {
     width: 100%;
@@ -386,7 +414,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px; /* Ajusta el margen izquierdo según sea necesario */
+    margin-left: 0px; /* Ajusta el margen izquierdo según sea necesario */
 }
 
 .footer-social-icons a {
